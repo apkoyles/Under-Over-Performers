@@ -1,0 +1,2698 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20213.21.0917.1006                               -->
+<workbook original-version='18.1' source-build='2021.3.1 (20213.21.0917.1006)' source-platform='mac' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AccessibleZoneTabOrder.true...AccessibleZoneTabOrder />
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='IowaSt_over' inline='true' name='federated.1t2kl9c1jwyysd1ex5pcn1qpr0d4' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='IowaSt_over' name='textscan.001lz461qmov3w10o3skx1utbwb1'>
+            <connection class='textscan' directory='/Users/AydanKoyles/Desktop/Research/CFP/UnderOverPerformers/Datasets' filename='IowaSt_over.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.001lz461qmov3w10o3skx1utbwb1' name='IowaSt_over.csv' table='[IowaSt_over#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='integer' name='F1' ordinal='0' />
+            <column datatype='integer' name='V1' ordinal='1' />
+            <column datatype='string' name='Team' ordinal='2' />
+            <column datatype='real' name='STR' ordinal='3' />
+            <column datatype='real' name='NFP' ordinal='4' />
+            <column datatype='integer' name='Year' ordinal='5' />
+            <column datatype='real' name='offense.totalPPA' ordinal='6' />
+            <column datatype='real' name='offense.successRate' ordinal='7' />
+            <column datatype='real' name='offense.fieldPosition.averagePredictedPoints' ordinal='8' />
+            <column datatype='real' name='defense.totalPPA' ordinal='9' />
+            <column datatype='real' name='defense.successRate' ordinal='10' />
+            <column datatype='real' name='defense.fieldPosition.averagePredictedPoints' ordinal='11' />
+            <column datatype='integer' name='F_Rank' ordinal='12' />
+            <column datatype='real' name='F_Plus' ordinal='13' />
+            <column datatype='real' name='FEI' ordinal='14' />
+            <column datatype='integer' name='FEI_Rank' ordinal='15' />
+            <column datatype='real' name='SP' ordinal='16' />
+            <column datatype='integer' name='SP_Rank' ordinal='17' />
+            <column datatype='real' name='WP' ordinal='18' />
+            <column datatype='real' name='FPI' ordinal='19' />
+            <column datatype='integer' name='FPI_Rank' ordinal='20' />
+            <column datatype='real' name='Talent' ordinal='21' />
+            <column datatype='integer' name='Talent_rank' ordinal='22' />
+            <column datatype='real' name='predictedFPI' ordinal='23' />
+            <column datatype='real' name='Diff' ordinal='24' />
+            <column datatype='real' name='predictedSTR' ordinal='25' />
+            <column datatype='real' name='STR_diff' ordinal='26' />
+            <column datatype='real' name='predictedNFP' ordinal='27' />
+            <column datatype='real' name='NFP_diff' ordinal='28' />
+            <column datatype='real' name='predicted_offPPA' ordinal='29' />
+            <column datatype='real' name='offPPA_diff' ordinal='30' />
+            <column datatype='real' name='predictedOSR' ordinal='31' />
+            <column datatype='real' name='OSR_diff' ordinal='32' />
+            <column datatype='real' name='predictedPP' ordinal='33' />
+            <column datatype='real' name='PP_diff' ordinal='34' />
+            <column datatype='real' name='predicted_defPPA' ordinal='35' />
+            <column datatype='real' name='defPPA_diff' ordinal='36' />
+            <column datatype='real' name='predictedDSR' ordinal='37' />
+            <column datatype='real' name='DSR_diff' ordinal='38' />
+            <column datatype='real' name='predictedDPP' ordinal='39' />
+            <column datatype='real' name='DPP_diff' ordinal='40' />
+            <column datatype='real' name='STR_devs' ordinal='41' />
+            <column datatype='real' name='NFP_devs' ordinal='42' />
+            <column datatype='real' name='oPPA_devs' ordinal='43' />
+            <column datatype='real' name='OSR_devs' ordinal='44' />
+            <column datatype='real' name='PP_devs' ordinal='45' />
+            <column datatype='real' name='dPPA_devs' ordinal='46' />
+            <column datatype='real' name='DSR_devs' ordinal='47' />
+            <column datatype='real' name='DPP_devs' ordinal='48' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.001lz461qmov3w10o3skx1utbwb1' name='IowaSt_over.csv' table='[IowaSt_over#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='integer' name='F1' ordinal='0' />
+            <column datatype='integer' name='V1' ordinal='1' />
+            <column datatype='string' name='Team' ordinal='2' />
+            <column datatype='real' name='STR' ordinal='3' />
+            <column datatype='real' name='NFP' ordinal='4' />
+            <column datatype='integer' name='Year' ordinal='5' />
+            <column datatype='real' name='offense.totalPPA' ordinal='6' />
+            <column datatype='real' name='offense.successRate' ordinal='7' />
+            <column datatype='real' name='offense.fieldPosition.averagePredictedPoints' ordinal='8' />
+            <column datatype='real' name='defense.totalPPA' ordinal='9' />
+            <column datatype='real' name='defense.successRate' ordinal='10' />
+            <column datatype='real' name='defense.fieldPosition.averagePredictedPoints' ordinal='11' />
+            <column datatype='integer' name='F_Rank' ordinal='12' />
+            <column datatype='real' name='F_Plus' ordinal='13' />
+            <column datatype='real' name='FEI' ordinal='14' />
+            <column datatype='integer' name='FEI_Rank' ordinal='15' />
+            <column datatype='real' name='SP' ordinal='16' />
+            <column datatype='integer' name='SP_Rank' ordinal='17' />
+            <column datatype='real' name='WP' ordinal='18' />
+            <column datatype='real' name='FPI' ordinal='19' />
+            <column datatype='integer' name='FPI_Rank' ordinal='20' />
+            <column datatype='real' name='Talent' ordinal='21' />
+            <column datatype='integer' name='Talent_rank' ordinal='22' />
+            <column datatype='real' name='predictedFPI' ordinal='23' />
+            <column datatype='real' name='Diff' ordinal='24' />
+            <column datatype='real' name='predictedSTR' ordinal='25' />
+            <column datatype='real' name='STR_diff' ordinal='26' />
+            <column datatype='real' name='predictedNFP' ordinal='27' />
+            <column datatype='real' name='NFP_diff' ordinal='28' />
+            <column datatype='real' name='predicted_offPPA' ordinal='29' />
+            <column datatype='real' name='offPPA_diff' ordinal='30' />
+            <column datatype='real' name='predictedOSR' ordinal='31' />
+            <column datatype='real' name='OSR_diff' ordinal='32' />
+            <column datatype='real' name='predictedPP' ordinal='33' />
+            <column datatype='real' name='PP_diff' ordinal='34' />
+            <column datatype='real' name='predicted_defPPA' ordinal='35' />
+            <column datatype='real' name='defPPA_diff' ordinal='36' />
+            <column datatype='real' name='predictedDSR' ordinal='37' />
+            <column datatype='real' name='DSR_diff' ordinal='38' />
+            <column datatype='real' name='predictedDPP' ordinal='39' />
+            <column datatype='real' name='DPP_diff' ordinal='40' />
+            <column datatype='real' name='STR_devs' ordinal='41' />
+            <column datatype='real' name='NFP_devs' ordinal='42' />
+            <column datatype='real' name='oPPA_devs' ordinal='43' />
+            <column datatype='real' name='OSR_devs' ordinal='44' />
+            <column datatype='real' name='PP_devs' ordinal='45' />
+            <column datatype='real' name='dPPA_devs' ordinal='46' />
+            <column datatype='real' name='DSR_devs' ordinal='47' />
+            <column datatype='real' name='DPP_devs' ordinal='48' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[IowaSt_over.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F1]</local-name>
+            <parent-name>[IowaSt_over.csv]</parent-name>
+            <remote-alias>F1</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[IowaSt_over.csv_8F9D35D3A062430DA8CD2E995048D0AC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>V1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[V1]</local-name>
+            <parent-name>[IowaSt_over.csv]</parent-name>
+            <remote-alias>V1</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[IowaSt_over.csv_8F9D35D3A062430DA8CD2E995048D0AC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Team</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Team]</local-name>
+            <parent-name>[IowaSt_over.csv]</parent-name>
+            <remote-alias>Team</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[IowaSt_over.csv_8F9D35D3A062430DA8CD2E995048D0AC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>STR</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[STR]</local-name>
+            <parent-name>[IowaSt_over.csv]</parent-name>
+            <remote-alias>STR</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[IowaSt_over.csv_8F9D35D3A062430DA8CD2E995048D0AC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>NFP</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[NFP]</local-name>
+            <parent-name>[IowaSt_over.csv]</parent-name>
+            <remote-alias>NFP</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[IowaSt_over.csv_8F9D35D3A062430DA8CD2E995048D0AC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Year</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Year]</local-name>
+            <parent-name>[IowaSt_over.csv]</parent-name>
+            <remote-alias>Year</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[IowaSt_over.csv_8F9D35D3A062430DA8CD2E995048D0AC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>offense.totalPPA</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[offense.totalPPA]</local-name>
+            <parent-name>[IowaSt_over.csv]</parent-name>
+            <remote-alias>offense.totalPPA</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[IowaSt_over.csv_8F9D35D3A062430DA8CD2E995048D0AC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>offense.successRate</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[offense.successRate]</local-name>
+            <parent-name>[IowaSt_over.csv]</parent-name>
+            <remote-alias>offense.successRate</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[IowaSt_over.csv_8F9D35D3A062430DA8CD2E995048D0AC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>offense.fieldPosition.averagePredictedPoints</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[offense.fieldPosition.averagePredictedPoints]</local-name>
+            <parent-name>[IowaSt_over.csv]</parent-name>
+            <remote-alias>offense.fieldPosition.averagePredictedPoints</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[IowaSt_over.csv_8F9D35D3A062430DA8CD2E995048D0AC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>defense.totalPPA</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[defense.totalPPA]</local-name>
+            <parent-name>[IowaSt_over.csv]</parent-name>
+            <remote-alias>defense.totalPPA</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[IowaSt_over.csv_8F9D35D3A062430DA8CD2E995048D0AC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>defense.successRate</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[defense.successRate]</local-name>
+            <parent-name>[IowaSt_over.csv]</parent-name>
+            <remote-alias>defense.successRate</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[IowaSt_over.csv_8F9D35D3A062430DA8CD2E995048D0AC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>defense.fieldPosition.averagePredictedPoints</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[defense.fieldPosition.averagePredictedPoints]</local-name>
+            <parent-name>[IowaSt_over.csv]</parent-name>
+            <remote-alias>defense.fieldPosition.averagePredictedPoints</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[IowaSt_over.csv_8F9D35D3A062430DA8CD2E995048D0AC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F_Rank</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F_Rank]</local-name>
+            <parent-name>[IowaSt_over.csv]</parent-name>
+            <remote-alias>F_Rank</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[IowaSt_over.csv_8F9D35D3A062430DA8CD2E995048D0AC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F_Plus</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[F_Plus]</local-name>
+            <parent-name>[IowaSt_over.csv]</parent-name>
+            <remote-alias>F_Plus</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[IowaSt_over.csv_8F9D35D3A062430DA8CD2E995048D0AC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>FEI</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[FEI]</local-name>
+            <parent-name>[IowaSt_over.csv]</parent-name>
+            <remote-alias>FEI</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[IowaSt_over.csv_8F9D35D3A062430DA8CD2E995048D0AC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>FEI_Rank</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[FEI_Rank]</local-name>
+            <parent-name>[IowaSt_over.csv]</parent-name>
+            <remote-alias>FEI_Rank</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[IowaSt_over.csv_8F9D35D3A062430DA8CD2E995048D0AC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SP</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[SP]</local-name>
+            <parent-name>[IowaSt_over.csv]</parent-name>
+            <remote-alias>SP</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[IowaSt_over.csv_8F9D35D3A062430DA8CD2E995048D0AC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SP_Rank</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[SP_Rank]</local-name>
+            <parent-name>[IowaSt_over.csv]</parent-name>
+            <remote-alias>SP_Rank</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[IowaSt_over.csv_8F9D35D3A062430DA8CD2E995048D0AC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>WP</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[WP]</local-name>
+            <parent-name>[IowaSt_over.csv]</parent-name>
+            <remote-alias>WP</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[IowaSt_over.csv_8F9D35D3A062430DA8CD2E995048D0AC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>FPI</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[FPI]</local-name>
+            <parent-name>[IowaSt_over.csv]</parent-name>
+            <remote-alias>FPI</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[IowaSt_over.csv_8F9D35D3A062430DA8CD2E995048D0AC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>FPI_Rank</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[FPI_Rank]</local-name>
+            <parent-name>[IowaSt_over.csv]</parent-name>
+            <remote-alias>FPI_Rank</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[IowaSt_over.csv_8F9D35D3A062430DA8CD2E995048D0AC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Talent</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Talent]</local-name>
+            <parent-name>[IowaSt_over.csv]</parent-name>
+            <remote-alias>Talent</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[IowaSt_over.csv_8F9D35D3A062430DA8CD2E995048D0AC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Talent_rank</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Talent_rank]</local-name>
+            <parent-name>[IowaSt_over.csv]</parent-name>
+            <remote-alias>Talent_rank</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[IowaSt_over.csv_8F9D35D3A062430DA8CD2E995048D0AC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>predictedFPI</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[predictedFPI]</local-name>
+            <parent-name>[IowaSt_over.csv]</parent-name>
+            <remote-alias>predictedFPI</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[IowaSt_over.csv_8F9D35D3A062430DA8CD2E995048D0AC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Diff</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Diff]</local-name>
+            <parent-name>[IowaSt_over.csv]</parent-name>
+            <remote-alias>Diff</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[IowaSt_over.csv_8F9D35D3A062430DA8CD2E995048D0AC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>predictedSTR</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[predictedSTR]</local-name>
+            <parent-name>[IowaSt_over.csv]</parent-name>
+            <remote-alias>predictedSTR</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[IowaSt_over.csv_8F9D35D3A062430DA8CD2E995048D0AC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>STR_diff</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[STR_diff]</local-name>
+            <parent-name>[IowaSt_over.csv]</parent-name>
+            <remote-alias>STR_diff</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[IowaSt_over.csv_8F9D35D3A062430DA8CD2E995048D0AC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>predictedNFP</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[predictedNFP]</local-name>
+            <parent-name>[IowaSt_over.csv]</parent-name>
+            <remote-alias>predictedNFP</remote-alias>
+            <ordinal>27</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[IowaSt_over.csv_8F9D35D3A062430DA8CD2E995048D0AC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>NFP_diff</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[NFP_diff]</local-name>
+            <parent-name>[IowaSt_over.csv]</parent-name>
+            <remote-alias>NFP_diff</remote-alias>
+            <ordinal>28</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[IowaSt_over.csv_8F9D35D3A062430DA8CD2E995048D0AC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>predicted_offPPA</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[predicted_offPPA]</local-name>
+            <parent-name>[IowaSt_over.csv]</parent-name>
+            <remote-alias>predicted_offPPA</remote-alias>
+            <ordinal>29</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[IowaSt_over.csv_8F9D35D3A062430DA8CD2E995048D0AC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>offPPA_diff</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[offPPA_diff]</local-name>
+            <parent-name>[IowaSt_over.csv]</parent-name>
+            <remote-alias>offPPA_diff</remote-alias>
+            <ordinal>30</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[IowaSt_over.csv_8F9D35D3A062430DA8CD2E995048D0AC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>predictedOSR</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[predictedOSR]</local-name>
+            <parent-name>[IowaSt_over.csv]</parent-name>
+            <remote-alias>predictedOSR</remote-alias>
+            <ordinal>31</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[IowaSt_over.csv_8F9D35D3A062430DA8CD2E995048D0AC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>OSR_diff</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[OSR_diff]</local-name>
+            <parent-name>[IowaSt_over.csv]</parent-name>
+            <remote-alias>OSR_diff</remote-alias>
+            <ordinal>32</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[IowaSt_over.csv_8F9D35D3A062430DA8CD2E995048D0AC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>predictedPP</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[predictedPP]</local-name>
+            <parent-name>[IowaSt_over.csv]</parent-name>
+            <remote-alias>predictedPP</remote-alias>
+            <ordinal>33</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[IowaSt_over.csv_8F9D35D3A062430DA8CD2E995048D0AC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PP_diff</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[PP_diff]</local-name>
+            <parent-name>[IowaSt_over.csv]</parent-name>
+            <remote-alias>PP_diff</remote-alias>
+            <ordinal>34</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[IowaSt_over.csv_8F9D35D3A062430DA8CD2E995048D0AC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>predicted_defPPA</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[predicted_defPPA]</local-name>
+            <parent-name>[IowaSt_over.csv]</parent-name>
+            <remote-alias>predicted_defPPA</remote-alias>
+            <ordinal>35</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[IowaSt_over.csv_8F9D35D3A062430DA8CD2E995048D0AC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>defPPA_diff</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[defPPA_diff]</local-name>
+            <parent-name>[IowaSt_over.csv]</parent-name>
+            <remote-alias>defPPA_diff</remote-alias>
+            <ordinal>36</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[IowaSt_over.csv_8F9D35D3A062430DA8CD2E995048D0AC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>predictedDSR</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[predictedDSR]</local-name>
+            <parent-name>[IowaSt_over.csv]</parent-name>
+            <remote-alias>predictedDSR</remote-alias>
+            <ordinal>37</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[IowaSt_over.csv_8F9D35D3A062430DA8CD2E995048D0AC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>DSR_diff</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[DSR_diff]</local-name>
+            <parent-name>[IowaSt_over.csv]</parent-name>
+            <remote-alias>DSR_diff</remote-alias>
+            <ordinal>38</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[IowaSt_over.csv_8F9D35D3A062430DA8CD2E995048D0AC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>predictedDPP</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[predictedDPP]</local-name>
+            <parent-name>[IowaSt_over.csv]</parent-name>
+            <remote-alias>predictedDPP</remote-alias>
+            <ordinal>39</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[IowaSt_over.csv_8F9D35D3A062430DA8CD2E995048D0AC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>DPP_diff</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[DPP_diff]</local-name>
+            <parent-name>[IowaSt_over.csv]</parent-name>
+            <remote-alias>DPP_diff</remote-alias>
+            <ordinal>40</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[IowaSt_over.csv_8F9D35D3A062430DA8CD2E995048D0AC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>STR_devs</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[STR_devs]</local-name>
+            <parent-name>[IowaSt_over.csv]</parent-name>
+            <remote-alias>STR_devs</remote-alias>
+            <ordinal>41</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[IowaSt_over.csv_8F9D35D3A062430DA8CD2E995048D0AC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>NFP_devs</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[NFP_devs]</local-name>
+            <parent-name>[IowaSt_over.csv]</parent-name>
+            <remote-alias>NFP_devs</remote-alias>
+            <ordinal>42</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[IowaSt_over.csv_8F9D35D3A062430DA8CD2E995048D0AC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>oPPA_devs</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[oPPA_devs]</local-name>
+            <parent-name>[IowaSt_over.csv]</parent-name>
+            <remote-alias>oPPA_devs</remote-alias>
+            <ordinal>43</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[IowaSt_over.csv_8F9D35D3A062430DA8CD2E995048D0AC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>OSR_devs</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[OSR_devs]</local-name>
+            <parent-name>[IowaSt_over.csv]</parent-name>
+            <remote-alias>OSR_devs</remote-alias>
+            <ordinal>44</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[IowaSt_over.csv_8F9D35D3A062430DA8CD2E995048D0AC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PP_devs</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[PP_devs]</local-name>
+            <parent-name>[IowaSt_over.csv]</parent-name>
+            <remote-alias>PP_devs</remote-alias>
+            <ordinal>45</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[IowaSt_over.csv_8F9D35D3A062430DA8CD2E995048D0AC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>dPPA_devs</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[dPPA_devs]</local-name>
+            <parent-name>[IowaSt_over.csv]</parent-name>
+            <remote-alias>dPPA_devs</remote-alias>
+            <ordinal>46</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[IowaSt_over.csv_8F9D35D3A062430DA8CD2E995048D0AC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>DSR_devs</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[DSR_devs]</local-name>
+            <parent-name>[IowaSt_over.csv]</parent-name>
+            <remote-alias>DSR_devs</remote-alias>
+            <ordinal>47</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[IowaSt_over.csv_8F9D35D3A062430DA8CD2E995048D0AC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>DPP_devs</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[DPP_devs]</local-name>
+            <parent-name>[IowaSt_over.csv]</parent-name>
+            <remote-alias>DPP_devs</remote-alias>
+            <ordinal>48</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[IowaSt_over.csv_8F9D35D3A062430DA8CD2E995048D0AC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='DPP devs' datatype='real' name='[DPP_devs]' role='measure' type='quantitative' />
+      <column caption='DPP diff' datatype='real' name='[DPP_diff]' role='measure' type='quantitative' />
+      <column caption='DSR devs' datatype='real' name='[DSR_devs]' role='measure' type='quantitative' />
+      <column caption='DSR diff' datatype='real' name='[DSR_diff]' role='measure' type='quantitative' />
+      <column caption='FEI Rank' datatype='integer' name='[FEI_Rank]' role='measure' type='quantitative' />
+      <column datatype='real' name='[FPI]' role='measure' type='quantitative' />
+      <column caption='FPI Rank' datatype='integer' name='[FPI_Rank]' role='measure' type='quantitative' />
+      <column caption='F Plus' datatype='real' name='[F_Plus]' role='measure' type='quantitative' />
+      <column caption='F Rank' datatype='integer' name='[F_Rank]' role='measure' type='quantitative' />
+      <column caption='NFP devs' datatype='real' name='[NFP_devs]' role='measure' type='quantitative' />
+      <column caption='NFP diff' datatype='real' name='[NFP_diff]' role='measure' type='quantitative' />
+      <column caption='OSR devs' datatype='real' name='[OSR_devs]' role='measure' type='quantitative' />
+      <column caption='OSR diff' datatype='real' name='[OSR_diff]' role='measure' type='quantitative' />
+      <column caption='PP devs' datatype='real' name='[PP_devs]' role='measure' type='quantitative' />
+      <column caption='PP diff' datatype='real' name='[PP_diff]' role='measure' type='quantitative' />
+      <column caption='SP Rank' datatype='integer' name='[SP_Rank]' role='measure' type='quantitative' />
+      <column caption='STR devs' datatype='real' name='[STR_devs]' role='measure' type='quantitative' />
+      <column caption='STR diff' datatype='real' name='[STR_diff]' role='measure' type='quantitative' />
+      <column caption='Talent rank' datatype='integer' name='[Talent_rank]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Year]' role='dimension' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='IowaSt_over.csv' datatype='table' name='[__tableau_internal_object_id__].[IowaSt_over.csv_8F9D35D3A062430DA8CD2E995048D0AC]' role='measure' type='quantitative' />
+      <column caption='dPPA devs' datatype='real' name='[dPPA_devs]' role='measure' type='quantitative' />
+      <column caption='defPPA diff' datatype='real' name='[defPPA_diff]' role='measure' type='quantitative' />
+      <column caption='oPPA devs' datatype='real' name='[oPPA_devs]' role='measure' type='quantitative' />
+      <column caption='offPPA diff' datatype='real' name='[offPPA_diff]' role='measure' type='quantitative' />
+      <column caption='Predicted DPP' datatype='real' name='[predictedDPP]' role='measure' type='quantitative' />
+      <column caption='Predicted DSR' datatype='real' name='[predictedDSR]' role='measure' type='quantitative' />
+      <column caption='Predicted FPI' datatype='real' name='[predictedFPI]' role='measure' type='quantitative' />
+      <column caption='Predicted NFP' datatype='real' name='[predictedNFP]' role='measure' type='quantitative' />
+      <column caption='Predicted OSR' datatype='real' name='[predictedOSR]' role='measure' type='quantitative' />
+      <column caption='Predicted PP' datatype='real' name='[predictedPP]' role='measure' type='quantitative' />
+      <column caption='Predicted STR' datatype='real' name='[predictedSTR]' role='measure' type='quantitative' />
+      <column caption='predicted defPPA' datatype='real' name='[predicted_defPPA]' role='measure' type='quantitative' />
+      <column caption='predicted offPPA' datatype='real' name='[predicted_offPPA]' role='measure' type='quantitative' />
+      <column-instance column='[FPI]' derivation='Sum' name='[sum:FPI:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[predictedFPI]' derivation='Sum' name='[sum:predictedFPI:qk]' pivot='key' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[:Measure Names]' type='palette'>
+            <map to='#c5222c'>
+              <bucket>&quot;[federated.1t2kl9c1jwyysd1ex5pcn1qpr0d4].[sum:FPI:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.1t2kl9c1jwyysd1ex5pcn1qpr0d4].[sum:predictedFPI:qk]&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='IowaSt_over.csv' id='IowaSt_over.csv_8F9D35D3A062430DA8CD2E995048D0AC'>
+            <properties context=''>
+              <relation connection='textscan.001lz461qmov3w10o3skx1utbwb1' name='IowaSt_over.csv' table='[IowaSt_over#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+                  <column datatype='integer' name='F1' ordinal='0' />
+                  <column datatype='integer' name='V1' ordinal='1' />
+                  <column datatype='string' name='Team' ordinal='2' />
+                  <column datatype='real' name='STR' ordinal='3' />
+                  <column datatype='real' name='NFP' ordinal='4' />
+                  <column datatype='integer' name='Year' ordinal='5' />
+                  <column datatype='real' name='offense.totalPPA' ordinal='6' />
+                  <column datatype='real' name='offense.successRate' ordinal='7' />
+                  <column datatype='real' name='offense.fieldPosition.averagePredictedPoints' ordinal='8' />
+                  <column datatype='real' name='defense.totalPPA' ordinal='9' />
+                  <column datatype='real' name='defense.successRate' ordinal='10' />
+                  <column datatype='real' name='defense.fieldPosition.averagePredictedPoints' ordinal='11' />
+                  <column datatype='integer' name='F_Rank' ordinal='12' />
+                  <column datatype='real' name='F_Plus' ordinal='13' />
+                  <column datatype='real' name='FEI' ordinal='14' />
+                  <column datatype='integer' name='FEI_Rank' ordinal='15' />
+                  <column datatype='real' name='SP' ordinal='16' />
+                  <column datatype='integer' name='SP_Rank' ordinal='17' />
+                  <column datatype='real' name='WP' ordinal='18' />
+                  <column datatype='real' name='FPI' ordinal='19' />
+                  <column datatype='integer' name='FPI_Rank' ordinal='20' />
+                  <column datatype='real' name='Talent' ordinal='21' />
+                  <column datatype='integer' name='Talent_rank' ordinal='22' />
+                  <column datatype='real' name='predictedFPI' ordinal='23' />
+                  <column datatype='real' name='Diff' ordinal='24' />
+                  <column datatype='real' name='predictedSTR' ordinal='25' />
+                  <column datatype='real' name='STR_diff' ordinal='26' />
+                  <column datatype='real' name='predictedNFP' ordinal='27' />
+                  <column datatype='real' name='NFP_diff' ordinal='28' />
+                  <column datatype='real' name='predicted_offPPA' ordinal='29' />
+                  <column datatype='real' name='offPPA_diff' ordinal='30' />
+                  <column datatype='real' name='predictedOSR' ordinal='31' />
+                  <column datatype='real' name='OSR_diff' ordinal='32' />
+                  <column datatype='real' name='predictedPP' ordinal='33' />
+                  <column datatype='real' name='PP_diff' ordinal='34' />
+                  <column datatype='real' name='predicted_defPPA' ordinal='35' />
+                  <column datatype='real' name='defPPA_diff' ordinal='36' />
+                  <column datatype='real' name='predictedDSR' ordinal='37' />
+                  <column datatype='real' name='DSR_diff' ordinal='38' />
+                  <column datatype='real' name='predictedDPP' ordinal='39' />
+                  <column datatype='real' name='DPP_diff' ordinal='40' />
+                  <column datatype='real' name='STR_devs' ordinal='41' />
+                  <column datatype='real' name='NFP_devs' ordinal='42' />
+                  <column datatype='real' name='oPPA_devs' ordinal='43' />
+                  <column datatype='real' name='OSR_devs' ordinal='44' />
+                  <column datatype='real' name='PP_devs' ordinal='45' />
+                  <column datatype='real' name='dPPA_devs' ordinal='46' />
+                  <column datatype='real' name='DSR_devs' ordinal='47' />
+                  <column datatype='real' name='DPP_devs' ordinal='48' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='IowaSt_DPP'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Iowa State Field Position Pred. Points</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='IowaSt_over' name='federated.1t2kl9c1jwyysd1ex5pcn1qpr0d4' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1t2kl9c1jwyysd1ex5pcn1qpr0d4'>
+            <column caption='DPP devs' datatype='real' name='[DPP_devs]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Year]' role='dimension' type='quantitative' />
+            <column-instance column='[Year]' derivation='None' name='[none:Year:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[DPP_devs]' derivation='Sum' name='[sum:DPP_devs:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <mark-sizing custom-mark-size-in-axis-units='1.0' mark-alignment='mark-alignment-left' mark-sizing-setting='marks-scaling-on' use-custom-mark-size='false' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-color' value='#e15759' />
+                <format attr='size' value='1.5' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1t2kl9c1jwyysd1ex5pcn1qpr0d4].[sum:DPP_devs:qk]</rows>
+        <cols>[federated.1t2kl9c1jwyysd1ex5pcn1qpr0d4].[none:Year:qk]</cols>
+      </table>
+      <simple-id uuid='{A565C4C9-33A4-4E4D-BBE3-6C688DDEB606}' />
+    </worksheet>
+    <worksheet name='IowaSt_DSR'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Iowa State DSR</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='IowaSt_over' name='federated.1t2kl9c1jwyysd1ex5pcn1qpr0d4' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1t2kl9c1jwyysd1ex5pcn1qpr0d4'>
+            <column caption='DSR devs' datatype='real' name='[DSR_devs]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Year]' role='dimension' type='quantitative' />
+            <column-instance column='[Year]' derivation='None' name='[none:Year:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[DSR_devs]' derivation='Sum' name='[sum:DSR_devs:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <mark-sizing custom-mark-size-in-axis-units='1.0' mark-alignment='mark-alignment-left' mark-sizing-setting='marks-scaling-on' use-custom-mark-size='false' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-color' value='#e15759' />
+                <format attr='size' value='1.5' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1t2kl9c1jwyysd1ex5pcn1qpr0d4].[sum:DSR_devs:qk]</rows>
+        <cols>[federated.1t2kl9c1jwyysd1ex5pcn1qpr0d4].[none:Year:qk]</cols>
+      </table>
+      <simple-id uuid='{C8D8F29F-695E-4801-9472-ED0647907F86}' />
+    </worksheet>
+    <worksheet name='IowaSt_FPI'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Iowa State FPI</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='IowaSt_over' name='federated.1t2kl9c1jwyysd1ex5pcn1qpr0d4' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1t2kl9c1jwyysd1ex5pcn1qpr0d4'>
+            <column datatype='real' name='[FPI]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Year]' role='dimension' type='quantitative' />
+            <column-instance column='[Year]' derivation='None' name='[none:Year:qk]' pivot='key' type='quantitative' />
+            <column caption='Predicted FPI' datatype='real' name='[predictedFPI]' role='measure' type='quantitative' />
+            <column-instance column='[FPI]' derivation='Sum' name='[sum:FPI:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[predictedFPI]' derivation='Sum' name='[sum:predictedFPI:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.1t2kl9c1jwyysd1ex5pcn1qpr0d4].[sum:predictedFPI:qk]' field-type='quantitative' fold='true' range-type='uniform' scope='rows' synchronized='true' type='space' />
+            <format attr='auto-subtitle' class='0' field='[federated.1t2kl9c1jwyysd1ex5pcn1qpr0d4].[sum:predictedFPI:qk]' scope='rows' value='true' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='text-format' field='[federated.1t2kl9c1jwyysd1ex5pcn1qpr0d4].[sum:FPI:qk]' value='' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1t2kl9c1jwyysd1ex5pcn1qpr0d4].[:Measure Names]' />
+            </encodings>
+          </pane>
+          <pane id='3' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.1t2kl9c1jwyysd1ex5pcn1qpr0d4].[sum:FPI:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1t2kl9c1jwyysd1ex5pcn1qpr0d4].[:Measure Names]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-markers-mode' value='all' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='4' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.1t2kl9c1jwyysd1ex5pcn1qpr0d4].[sum:predictedFPI:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1t2kl9c1jwyysd1ex5pcn1qpr0d4].[:Measure Names]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-markers-mode' value='all' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.1t2kl9c1jwyysd1ex5pcn1qpr0d4].[sum:FPI:qk] + [federated.1t2kl9c1jwyysd1ex5pcn1qpr0d4].[sum:predictedFPI:qk])</rows>
+        <cols>[federated.1t2kl9c1jwyysd1ex5pcn1qpr0d4].[none:Year:qk]</cols>
+      </table>
+      <simple-id uuid='{90870540-F8C9-4023-B8EB-E0297D8C5682}' />
+    </worksheet>
+    <worksheet name='IowaSt_NFP'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Iowa State NFP</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='IowaSt_over' name='federated.1t2kl9c1jwyysd1ex5pcn1qpr0d4' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1t2kl9c1jwyysd1ex5pcn1qpr0d4'>
+            <column caption='NFP devs' datatype='real' name='[NFP_devs]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Year]' role='dimension' type='quantitative' />
+            <column-instance column='[Year]' derivation='None' name='[none:Year:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[NFP_devs]' derivation='Sum' name='[sum:NFP_devs:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <mark-sizing custom-mark-size-in-axis-units='1.0' mark-alignment='mark-alignment-left' mark-sizing-setting='marks-scaling-on' use-custom-mark-size='false' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='1.5' />
+                <format attr='mark-color' value='#e15759' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1t2kl9c1jwyysd1ex5pcn1qpr0d4].[sum:NFP_devs:qk]</rows>
+        <cols>[federated.1t2kl9c1jwyysd1ex5pcn1qpr0d4].[none:Year:qk]</cols>
+      </table>
+      <simple-id uuid='{3DF3EF2C-8247-4C68-806C-857EB7EC831A}' />
+    </worksheet>
+    <worksheet name='IowaSt_OPP'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Iowa State Field Position Pred. Points</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='IowaSt_over' name='federated.1t2kl9c1jwyysd1ex5pcn1qpr0d4' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1t2kl9c1jwyysd1ex5pcn1qpr0d4'>
+            <column caption='PP devs' datatype='real' name='[PP_devs]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Year]' role='dimension' type='quantitative' />
+            <column-instance column='[Year]' derivation='None' name='[none:Year:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[PP_devs]' derivation='Sum' name='[sum:PP_devs:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <mark-sizing custom-mark-size-in-axis-units='1.0' mark-alignment='mark-alignment-left' mark-sizing-setting='marks-scaling-on' use-custom-mark-size='false' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-color' value='#e15759' />
+                <format attr='size' value='1.5' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1t2kl9c1jwyysd1ex5pcn1qpr0d4].[sum:PP_devs:qk]</rows>
+        <cols>[federated.1t2kl9c1jwyysd1ex5pcn1qpr0d4].[none:Year:qk]</cols>
+      </table>
+      <simple-id uuid='{DE77F86F-BA79-4F0B-81B9-771C1BAB4EFC}' />
+    </worksheet>
+    <worksheet name='IowaSt_OSR'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Iowa State OSR</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='IowaSt_over' name='federated.1t2kl9c1jwyysd1ex5pcn1qpr0d4' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1t2kl9c1jwyysd1ex5pcn1qpr0d4'>
+            <column caption='OSR devs' datatype='real' name='[OSR_devs]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Year]' role='dimension' type='quantitative' />
+            <column-instance column='[Year]' derivation='None' name='[none:Year:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[OSR_devs]' derivation='Sum' name='[sum:OSR_devs:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <mark-sizing custom-mark-size-in-axis-units='1.0' mark-alignment='mark-alignment-left' mark-sizing-setting='marks-scaling-on' use-custom-mark-size='false' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-color' value='#e15759' />
+                <format attr='size' value='1.5' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1t2kl9c1jwyysd1ex5pcn1qpr0d4].[sum:OSR_devs:qk]</rows>
+        <cols>[federated.1t2kl9c1jwyysd1ex5pcn1qpr0d4].[none:Year:qk]</cols>
+      </table>
+      <simple-id uuid='{DC055628-55BA-41A9-B4D7-4FC72A7A52AE}' />
+    </worksheet>
+    <worksheet name='IowaSt_STR'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Iowa State STR&#10;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='IowaSt_over' name='federated.1t2kl9c1jwyysd1ex5pcn1qpr0d4' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1t2kl9c1jwyysd1ex5pcn1qpr0d4'>
+            <column caption='STR devs' datatype='real' name='[STR_devs]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Year]' role='dimension' type='quantitative' />
+            <column-instance column='[Year]' derivation='None' name='[none:Year:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[STR_devs]' derivation='Sum' name='[sum:STR_devs:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <mark-sizing custom-mark-size-in-axis-units='1.0' mark-alignment='mark-alignment-left' mark-sizing-setting='marks-scaling-on' use-custom-mark-size='false' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-color' value='#e15759' />
+                <format attr='size' value='1.5' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1t2kl9c1jwyysd1ex5pcn1qpr0d4].[sum:STR_devs:qk]</rows>
+        <cols>[federated.1t2kl9c1jwyysd1ex5pcn1qpr0d4].[none:Year:qk]</cols>
+      </table>
+      <simple-id uuid='{3660B8AC-7CE2-4070-9963-82EC0E45278B}' />
+    </worksheet>
+    <worksheet name='IowaSt_dPPA'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Iowa State Defensive PPA</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='IowaSt_over' name='federated.1t2kl9c1jwyysd1ex5pcn1qpr0d4' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1t2kl9c1jwyysd1ex5pcn1qpr0d4'>
+            <column datatype='integer' name='[Year]' role='dimension' type='quantitative' />
+            <column caption='dPPA devs' datatype='real' name='[dPPA_devs]' role='measure' type='quantitative' />
+            <column-instance column='[Year]' derivation='None' name='[none:Year:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[dPPA_devs]' derivation='Sum' name='[sum:dPPA_devs:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <mark-sizing custom-mark-size-in-axis-units='1.0' mark-alignment='mark-alignment-left' mark-sizing-setting='marks-scaling-on' use-custom-mark-size='false' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-color' value='#e15759' />
+                <format attr='size' value='1.5' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1t2kl9c1jwyysd1ex5pcn1qpr0d4].[sum:dPPA_devs:qk]</rows>
+        <cols>[federated.1t2kl9c1jwyysd1ex5pcn1qpr0d4].[none:Year:qk]</cols>
+      </table>
+      <simple-id uuid='{6007997F-5A51-41F6-9816-91ACC7FDDBDA}' />
+    </worksheet>
+    <worksheet name='IowaSt_oPPA'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Iowa State Offensive PPA</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='IowaSt_over' name='federated.1t2kl9c1jwyysd1ex5pcn1qpr0d4' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1t2kl9c1jwyysd1ex5pcn1qpr0d4'>
+            <column datatype='integer' name='[Year]' role='dimension' type='quantitative' />
+            <column-instance column='[Year]' derivation='None' name='[none:Year:qk]' pivot='key' type='quantitative' />
+            <column caption='oPPA devs' datatype='real' name='[oPPA_devs]' role='measure' type='quantitative' />
+            <column-instance column='[oPPA_devs]' derivation='Sum' name='[sum:oPPA_devs:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <mark-sizing custom-mark-size-in-axis-units='1.0' mark-alignment='mark-alignment-left' mark-sizing-setting='marks-scaling-on' use-custom-mark-size='false' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-color' value='#e15759' />
+                <format attr='size' value='1.5' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1t2kl9c1jwyysd1ex5pcn1qpr0d4].[sum:oPPA_devs:qk]</rows>
+        <cols>[federated.1t2kl9c1jwyysd1ex5pcn1qpr0d4].[none:Year:qk]</cols>
+      </table>
+      <simple-id uuid='{01C8B30B-E8BB-435E-A286-145F976AF60E}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='IowaSt_Off'>
+      <style />
+      <size maxheight='800' maxwidth='1000' minheight='800' minwidth='1000' />
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='49000' id='3' name='IowaSt_oPPA' w='98400' x='800' y='1000'>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone h='49000' id='5' name='IowaSt_OSR' w='49200' x='800' y='50000'>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone h='49000' id='6' name='IowaSt_OPP' w='49200' x='50000' y='50000'>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='900' minheight='900' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='8' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98000' id='7' param='vert' type-v2='layout-flow' w='98400' x='800' y='1000'>
+                <zone fixed-size='280' h='49000' id='3' is-fixed='true' name='IowaSt_oPPA' w='98400' x='800' y='1000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='49000' id='5' is-fixed='true' name='IowaSt_OSR' w='49200' x='800' y='50000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='49000' id='6' is-fixed='true' name='IowaSt_OPP' w='49200' x='50000' y='50000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{8D7EA202-3F35-43F8-8AF6-A87D0D6CF756}' />
+    </dashboard>
+    <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='IowaSt_SpecTeams'>
+      <style />
+      <size maxheight='800' maxwidth='1000' minheight='800' minwidth='1000' />
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='49000' id='3' name='IowaSt_STR' w='98400' x='800' y='1000'>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone h='49000' id='5' name='IowaSt_NFP' w='98400' x='800' y='50000'>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='700' minheight='700' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='7' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98000' id='6' param='vert' type-v2='layout-flow' w='98400' x='800' y='1000'>
+                <zone fixed-size='280' h='49000' id='3' is-fixed='true' name='IowaSt_STR' w='98400' x='800' y='1000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='49000' id='5' is-fixed='true' name='IowaSt_NFP' w='98400' x='800' y='50000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{ADADE06D-B7EE-4701-B5D5-08131DA19809}' />
+    </dashboard>
+    <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='IowaSt_def'>
+      <style />
+      <size maxheight='800' maxwidth='1000' minheight='800' minwidth='1000' />
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='49000' id='3' name='IowaSt_dPPA' w='98400' x='800' y='1000'>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone h='49000' id='5' name='IowaSt_DSR' w='49200' x='800' y='50000'>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone h='49000' id='6' name='IowaSt_DPP' w='49200' x='50000' y='50000'>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='900' minheight='900' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='8' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98000' id='7' param='vert' type-v2='layout-flow' w='98400' x='800' y='1000'>
+                <zone fixed-size='280' h='49000' id='3' is-fixed='true' name='IowaSt_dPPA' w='98400' x='800' y='1000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='49000' id='5' is-fixed='true' name='IowaSt_DSR' w='49200' x='800' y='50000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='49000' id='6' is-fixed='true' name='IowaSt_DPP' w='49200' x='50000' y='50000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{021EB8C6-D576-44E4-B598-BB93B466B416}' />
+    </dashboard>
+  </dashboards>
+  <windows source-height='30'>
+    <window class='worksheet' name='IowaSt_FPI'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='3' param='[federated.1t2kl9c1jwyysd1ex5pcn1qpr0d4].[:Measure Names]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1t2kl9c1jwyysd1ex5pcn1qpr0d4].[none:Year:qk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{6A1E5A75-75C9-4174-8E67-CF387EEF5C20}' />
+    </window>
+    <window class='worksheet' name='IowaSt_STR'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1t2kl9c1jwyysd1ex5pcn1qpr0d4].[none:Year:qk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{9BC4BDB8-952F-4C28-94CA-63A8FE9660A3}' />
+    </window>
+    <window class='worksheet' name='IowaSt_NFP'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1t2kl9c1jwyysd1ex5pcn1qpr0d4].[none:Year:qk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{D1D0CAFA-46D9-4EB7-A0B2-00E3662C449A}' />
+    </window>
+    <window class='dashboard' name='IowaSt_SpecTeams'>
+      <viewpoints>
+        <viewpoint name='IowaSt_NFP'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='IowaSt_STR'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='5' />
+      <simple-id uuid='{D3EAD628-D3F8-4C80-945C-E12DF8AF99E1}' />
+    </window>
+    <window class='worksheet' name='IowaSt_oPPA'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1t2kl9c1jwyysd1ex5pcn1qpr0d4].[none:Year:qk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{CDE64680-06F3-47B8-9ECB-E7B6BB616EEF}' />
+    </window>
+    <window class='worksheet' name='IowaSt_OSR'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1t2kl9c1jwyysd1ex5pcn1qpr0d4].[none:Year:qk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{A6C2AD96-FCE8-4906-BB89-0EB724CF0688}' />
+    </window>
+    <window class='worksheet' name='IowaSt_OPP'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1t2kl9c1jwyysd1ex5pcn1qpr0d4].[none:Year:qk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{329ADC3A-AC1B-45E4-AB20-23DFC34F4B83}' />
+    </window>
+    <window class='dashboard' name='IowaSt_Off'>
+      <viewpoints>
+        <viewpoint name='IowaSt_OPP'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='IowaSt_OSR'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='IowaSt_oPPA'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='-1' />
+      <simple-id uuid='{BBD0E343-8CC0-496B-8080-C95C4E719E48}' />
+    </window>
+    <window class='worksheet' name='IowaSt_dPPA'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1t2kl9c1jwyysd1ex5pcn1qpr0d4].[none:Year:qk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{3C9FCBF1-8DAE-4E90-BDA4-9D529A948660}' />
+    </window>
+    <window class='worksheet' name='IowaSt_DSR'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1t2kl9c1jwyysd1ex5pcn1qpr0d4].[none:Year:qk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{46652DE4-060C-46F5-8E7B-FE8FF1E171C9}' />
+    </window>
+    <window class='worksheet' name='IowaSt_DPP'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1t2kl9c1jwyysd1ex5pcn1qpr0d4].[none:Year:qk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{12CFE5CF-A1E7-4C3D-B798-05E8CFF67C81}' />
+    </window>
+    <window class='dashboard' maximized='true' name='IowaSt_def'>
+      <viewpoints>
+        <viewpoint name='IowaSt_DPP'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='IowaSt_DSR'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='IowaSt_dPPA'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='6' />
+      <simple-id uuid='{ADC68175-D48F-474A-8CC1-71BD1C756F48}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='IowaSt_DPP' width='192'>
+      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
+      AElFTkSuQmCC
+    </thumbnail>
+    <thumbnail height='192' name='IowaSt_DSR' width='192'>
+      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
+    </thumbnail>
+    <thumbnail height='192' name='IowaSt_FPI' width='192'>
+      iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAAA7DAAAOwwHHb6hk
+      AAATnklEQVR4nO3daXAb533H8e8uDhIAQVIAQZEGKUGkJUq0JNe2rFEap07iNo3jNHedVonj
+      5phO2zedtuMmcerOtNOZTF+0ftEknmljW7IsxfJZJ3Fip1bOTmwnVZNYVnRaokyKJEAQIIiT
+      WOw+fQEekl3FNAASIPb/maFJjcXl8xef3x7P7h/QlFIKIWxKr/cAhKgn58IXhmGQy+XqORYh
+      Vp22cAqklMKyrJpsNJlMsm7duppsqxGUSiWcTueb/8U1QupZsvhdmqbhcDhqMiBd12u2rUZg
+      WZbU08CqqUeuAYStSQCErUkAhK1VFYCFWwiWZSG3E8RaVPFSwOjoKPF4nE2bNnH69GlaW1vZ
+      uXNnLccmxIqrOADhcJhUKoWu6yQSCYLBIJZlYVkWpmliGEYtx1lXpmnWewg1JfUsqTgAuVyO
+      bDbL1NQUW7duJRaLoev64hKoy+WqeFCNSOppbJXWU/E1QLFYJBwO09vbi8PhYNu2bZVuSoi6
+      qfgIEAgECAQCAHi93poNSIjVJMugwtYkAMLWJADC1iQAwtYkAMLWJADC1iQAwtYkAMLWJADC
+      1iQAwtYkAMLWJADC1iQAwtYqDsD09DTnzp3DNE2OHz/O+Ph4LcclxKqo+HHolpYWMpkM0WiU
+      VCpFKBRCKbX40UxdR1JPY6ukHiM2xdQTT1ceAK/Xi66XDyDr16/nwoULhEKhSjcnxMpTivz5
+      C0QPHSb5/R/Tvuu6ygNw8eJF8vk8Pp+PqakpQqEQmqYtfsgrjzUuu9WjTJPs8RNM7D/I7NFf
+      ELjlXVzzwH20DkSWXhu0lhKJxGK3WDMwDKOpemjtUo9VLDL786NMPPgw+XMjhD7yAbo/9iFa
+      1neDpgFVXAMI0ajMfJ7k93/ExEOHMGfT9Hzyj9j8L1/G2dH+hr8rARBNQSmFmckQf/o7TB46
+      jO7xcNVn7iBwyzvRW1uv+H0SALGmKaUw4tNMPvE0sceewjO4icjdd9Hxtt1oy7jOkQCINUkp
+      xdzoGBP7DxF/5lk6fnsPQ1/9V3zXbEObP79fDgmAWFOUZZE9cYqJBx5i5ic/pesP3se2Qw/Q
+      NrCpou1JAMSaoCyL1Is/Z/zr+8idPM36vbfzW1+6C1cgUNXLcEoAREOzDIPE944w/vX9mOkM
+      vZ/+JENf+VccXk9Nti8BEA3JzGaJPfUtJh58GNe6Tq76008T+N13oTudi2v4tSABEA2lOBUn
+      +sjjRB95HN+2rQz+09/TvvuGZa3oVEICIBpC/vwFJg98g/h3v0fn29/G1v/4Cr6tW9D0lX1i
+      XwIg6kYpReblV5jY9zCzPztK8Nb3sOPwflr6wis+8RdIAMSqUyWT1AsvMX7/fgqvjdL90Q8R
+      ufsuXF3Bt7SGXwsSALFqzHyB5JEfMP7gAay5Ij17b6fr/bfi8Let+sRfUHEA4vE4qVSKwcFB
+      otEohmHQ19dXy7GJJmHMpIh/+7tMHjyMs72dqz73J6x75ztweGqzlFmNigPg8XgYHx+nVCox
+      OjqKx+MhHA6jlFp8n7BmIfVU+HPyBaIHHyH26JO0RDaw8e67aL/xerT5R5drNYZq6qkqALqu
+      Mz4+ztzcHMlkkuHhYYDFpphmIfW8NcbMDNPffra8lDm0hc33/jPebUMrtpRZTT1VdYQVCgUi
+      kQh9fX3E4/HLOsL0VbqKXw1Sz5tTSlGcjBJ7/D+ZevoZPJENbLr7Ltr33Fi+ebWCqqlHOsKW
+      wS4dVJVQlqIwMsLkw4dJfP9HtN9wHb137sV3zTCaY3V2GtXUI6tAoiILfbbj+w6SPvoLAr/3
+      boYfuI/WTRvX1OmiBEC8JVbRKPfZPvAQ+XMjdH/sQ0Q+/1e4u0M1fUZntUgAxJtSSmHNzZE8
+      8iMm9j9MKZWm9869bL73Vpzt/noPryoSAHFFS322zzB58DC618NVn72TwC3vQm9x13t4NSEB
+      EG+w0GcbfeRxYo8/hWdwgMjffb7cZ9tEq2EgARCXWOyz3XeQ+Heeo/Ptexj66r20XbNtTZ7f
+      L4cEQKCUIvvrk4zfv5+Z/36B0AduY8djB2jtb/5HWyQANqYsi9QLPyv32Z4+Q8/ej7Ppns/j
+      Wreu3kNbNRIAG1KGQfy558t9tvk8vXd+gqGv3Yve2rqm1vBrQQJgI6VMhqmnvsXEvoO4ggHC
+      f/ZZ1r37ZjSXy3YTf4EEwAaKU3Gi33iM6KNP4hveysZ/+BKBPTeirfAzOmuB/As0KaUUhZHX
+      mHjoEIln/4uOm97Gtn//N7xDmylZlkz+efKv0GQu67P9+f8SvPU9bD+8n5b+vqXTHMuq7yAb
+      SMUBMAyDTCZDR0cHY2NjtLe309nZWcuxibfAKpVI/fQlJh48UO6z/cgH69Znu5ZUHICpqSkm
+      JycZHh7G4/Fw8uRJ9uzZU8uxiWUwc3mSR37I+L6HUcUi6/feTtdtv4+z/Y2vhS/eqOIA9PT0
+      kEgkcLvdnD9/ni1btmBZ1mJ7WjWv19hoGrEdsjTfZxt/9ElcHR30fOYOOt7xdnRPKwp+479/
+      I9ZTjWrqqTgAY2NjxGIx/H4/uVyOdDpNIBBA13UcDkdTNZAADVHPYtfVY08x9c1n8GyKsOme
+      L9C+63p091sbXyPUU0uV1iMdYctQ744wpRT5V88zefAwyR/8mPYbr6f3U3vxDW+tqM+23vXU
+      mnSENSllmmRe+TUT+x4m/YuXy11XD95Ha2RtdV01MglAA7KKRWZf+h/GHzxA4cIo3R/9IJEv
+      /M2a7bpqZBKABqGUwioUSB75IRP7D2Fms/Tc8cd03fbeNd911cgkAHWmlMJMp5l6+jtEDz2K
+      o81L72c+ReDdN6O3tNR7eE1PAlAnSimM+dfCjz35NN7BASL3/C0de5qv66qRSQBWmbIsCq+N
+      MbH/IInnnp9/d8N7aRveKuf3dSABWCXKsua7rh4i9cJLdH3gfWx/ZD+tG5q/66qRSQBWmDLN
+      ctfV/fvJnXmVnr23l7uuAvbpumpkEoAVYhkGieee5+LX92PlcvR++g6GvnZvQ7wkuFgiAagx
+      M5sl9sQ3mdh3AFdXkL4//xyBW94JDofcvGpAEoAaKXddPUr0kSfwbR9m8Mv/SPuu61bsJcFF
+      bUgAqpQ/f4GJ/QeZ/u736Lz5JrY9cB/eLVfLUuYaIQGowGLX1YMHmP3ZUbrefys7njhIS/gq
+      Oc1ZY6oKgFIKTdMwTROHDQ71qlRi5qcvMnH/AQqjY3T/4YfZdM8XcAbWycRfoyoOwOjoKNFo
+      lKGhIY4fP47P52PHjh21HFtDsAoFkj/8CWRzTB48jDIMej7xcYK3vRenv63ewxNVqjgA4XCY
+      VCpFPB5neHiY8+fPN2VHWOK553n1r79I60CE8F/+BZ0334Te+uZdV41MOsKWVByAmZkZkskk
+      wWCQkZERTNNE1/Wm6wjr3LOb7k9+nJ6PfZi2HdfUezg10yy/nwU17whLJpOMjY0BEAqF6Onp
+      uez/p9Np5ubmaG9vZ3Z2Fr/fT8v804vSEdbYpJ4lV1yrU0oxOTkJ8P9e4Pr9frq6unC73XR1
+      dS1OfiHWkisGYGRkBKUU8XicUCi0mmMSYtVc8Rpgbm6OWCxGLBYjFAqxffv21RyXEKviigFw
+      OBzccsstXLhwQSa/aFpXDIDb7ebIkSPk83na2tokBKIpyesCLYOsmjS2FVkFEsIOJADC1iQA
+      wtYkAMLWJADC1iQAwtYkAMLWahIA0zRZgdsJQqy4qnuCE4kEZ86cweVycf3119diTEKsmqoD
+      4HQ6FxtjmrEjDKSDqtHVpSNsQSqVIhKJMDs725QdYQuknsZWt7dICofDJJNJIpFItZsSYtVV
+      HQBd1wkGg7UYixCrTpZBha1JAIStSQCErUkAhK1JAIStSQCErUkAhK1JAIStSQCErUkAhK1J
+      AIStSQCErUkAhK1VHQDTNPnlL3/JxYsXazEeIVZV1Y9DT0xMkE6n6erqQim12BVWKpVqMb6G
+      IPU0tmrqqUlLZH9/P5OTk4TDYXRdR9M09CZ6o2jLsqSeBlZNPVUHoLu7mxMnTtDT07P4XrnN
+      FgCpp7FVU09NOsKuuaZ53j1R2Evz7AaEqIAEQNiaBEDYmgRA2JoEQNiaBEDYmgRA2JoEQNia
+      BEDYmgRA2JoEQNiaBEDYmgRA2FpNAjA2NsbIyEgtNiXEqqr6cWjDMIhGo7S2tkpH2Boh9Syp
+      OgCTk5MYhkEikWB4eHixI8zhcFS76YahlJJ6Glg19VQdgP7+fsLhMDMzM5d1hC183SyknsZW
+      aT01uQbQdZ1AIFCLTQmxqmQVSNiaBEDYmgRA2JoEQNha1atAQqxFSllgFCQAoskohbIMKBVQ
+      xhyqMIPKxFCZGFYmisoufJ6GkgRArBkKZVlgFqE0hzLyqOwUViZKaXYCKxfHysRQmShqLoMq
+      5cEogNON3taN1rYezdeNvm4AR/8e9LYQWmunBEDUn1IKLANMA2UWUbnE0l47G53/OoqVS0Ax
+      iypmwSqheYNobevB2wXtPTj6d5cnuzeI1tqB5ukEp+c33iSTAIgVpSwTrBJYJVQxW57I85O7
+      /HUUlZ1CFWZRc2koZsDtW9prt3Wjd25A69uF5g2hedehe9ZBSwfa/OuBGoaBy+WqaHwSAFER
+      pRQoC1R5gqtCauk8+5LPKj2JyidRhRlQFpqvPLHLE7wbR/iGpb22N4DmCaA53cDqPKohARCX
+      UwoF85PbglLhdXvs+fPsTAwrN12e3PkkmsO9tMee33s7+vegdVyF5guhe7vQWvzQYM8gSQBs
+      RCm18AXKNFD5xOV764UJnp1CZePlj1IBzdeFPj+5tbb16Os2ovXvLk9sXxeaL4TmbG24yb0c
+      EoAmo5SCYhYrG7tk+e+SvXa2/GdyCbQW//ykDqHPn5o4wrvKKyRt3eXTFU8nmta890urDoBp
+      mpw5c4ZAIEB3d3ctxiSuQJkGKjc9v4eeWpzYrz9FKZ9rd6H7Qmi+rvJeuyOMFr4OrW09VmsQ
+      V0cvOFwsnGuXd95rbw9eraoDUCqV6O/v59ixYxKACimlYG4WKxtH5eKozNTr9trzpyiFFFpL
+      R/li0RsoT/C29Th6r73sFKV8rq3Pz+o39mYYhoHmrGzVpNnU5D3Cjh49ys6dOxfbIU3TxDCM
+      WoyvIZimWfk3lwqoXAIrn0Blp1HZGCodxcrGIDsF2Rjk4mgOF1prJ5qnY3F9W/evR+vZAb4Q
+      eEPgCZT32poDdJ1L99hq/gMAa/E/ta+nAVVTT9UBSKVSKKWYnp6mra0NXddxOBwVr8s2qtfX
+      oyyzvPSXT85fTE698XZ7JgZGHtxtaC3t5cntC+FoW48WvnSv3Y3m8oLuLH9o+op3bDX772e5
+      NLW4NFA7iUSiaTrEzOhx8s9+EedV1wNq6dQkNw3OFjS3D1w+dF/wkmXASz63doLDXd5z686G
+      aEWs5sZRI5IbYStI5WdQsxOo4CyOvl04Nv1OeZ3bF0JzecqT29kyP7HrP7nFWyNHgDehlIUx
+      G8PVFkRzNMdeU44AS5p3gbdGNE0vX5Q2yeQXl5MACFuTAAhbkwAIW5MACFuTAAhbkwAIW5MA
+      CFurOgBKKfL5fNM9YCXsoepHIWZmZjh79ixOp5PrrruuFmMSYtVUfQSYmZlh69at6LqcTYm1
+      p+pZGwwGefnll7GsKz9/LkSjqvoUyO/3s3v3bpxOebBUrD2Ls7ZYLJLJZGqy0Vptp1GYptlU
+      76kl9SyRx6GXoVQqNdURTupZIleuy9BsF/hSzyXfW8NxNC2ZMI2tmnpW7Dh48uRJCoUCGzZs
+      YGRkhIGBAeLxOH6/H7fbzWuvvcbVV1+Nz+dbqSFUpFgscurUKZxOJx0dHcRiMbZs2cLZs2cZ
+      HBxkYmKCeDzOzp078Xq99R7um8rn85w+fRq/34+maaTTaTZv3sypU6cYHh7mzJkzKKUW3+O5
+      0aVSKc6dO0d3dzeZTAbTNIlEIpw6dYqdO3dy7Ngx/H4/AwMDy+q/XrGKI5EIhUKB0dFRhoeH
+      uXDhAu3t7eTzeU6ePNmwF2FOp5NIJEI6nSYWi7Fx40ai0Sher5discjg4CBOpxOPx1PvoS6L
+      2+1mw4YNzM7Okkql8Pv95HI5XC4XpVKJeDzO9PT0mlnG9vl89PT0MD09jWmaWJa1ONGz2SyW
+      ZTExMbHselYsAK+88grDw8O4XC5M00TTNFpbW4HyL6Wnp4fR0dGV+vEVK5VKnDhxgmuvvRal
+      FKZpous6LS0tAKTT6cW96VowNzfH2bNn2b59O0opLMvC6XTidrsxDIP29nYCgQBzc3P1Huqy
+      pFIppqamGBoaWnwNKrfbjcPhwO/3EwwGKZVKy/79rFgAdF1ndHSUvr4+Tp8+TSQSYXx8nFQq
+      xYYNGxgbGyMcDq/Uj6+YYRg4nU5GR0cJh8NcvHiRrq4upqenicVi5PN5rr766noPc9kKhQIu
+      l4vx8XG6urooFArouk46nSaZTOLxeNbUEa1YLKKUWhy7x+NhdnaWYrFINBpldnaWzZs3L/t0
+      TpZBha01/lWPECtIAiBsTQIgbE0CIGrm2LFj5HI5Xn311XoPZdma54EQUXexWIwXX3yRPXv2
+      sG/fPoaGhpiZmSEYDHL+/HkGBwfZtWtXvYd5GTkCiJq56aabyOVytLS0kEwmGR0dxel08qtf
+      /Yp0Os0NN9xQ7yG+gRwBRM20tLSwa9cu+vr66O3tZePGjaTTaQYGBujs7GzIm4dyH0DYmpwC
+      CVv7P5bdsTfke/McAAAAAElFTkSuQmCC
+    </thumbnail>
+    <thumbnail height='192' name='IowaSt_NFP' width='192'>
+      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
+    </thumbnail>
+    <thumbnail height='192' name='IowaSt_OPP' width='192'>
+      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
+      AAAASUVORK5CYII=
+    </thumbnail>
+    <thumbnail height='192' name='IowaSt_OSR' width='192'>
+      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
+    </thumbnail>
+    <thumbnail height='192' name='IowaSt_Off' width='192'>
+      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
+      AABJRU5ErkJggg==
+    </thumbnail>
+    <thumbnail height='192' name='IowaSt_STR' width='192'>
+      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
+    </thumbnail>
+    <thumbnail height='192' name='IowaSt_SpecTeams' width='192'>
+      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
+    </thumbnail>
+    <thumbnail height='192' name='IowaSt_dPPA' width='192'>
+      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
+    </thumbnail>
+    <thumbnail height='192' name='IowaSt_def' width='192'>
+      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
+      oQQguvb/mR9AyJUDV74AAAAASUVORK5CYII=
+    </thumbnail>
+    <thumbnail height='192' name='IowaSt_oPPA' width='192'>
+      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
+      AAAAAElFTkSuQmCC
+    </thumbnail>
+  </thumbnails>
+</workbook>

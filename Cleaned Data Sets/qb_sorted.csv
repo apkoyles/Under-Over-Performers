@@ -1,0 +1,744 @@
+"","V1","season","id","name","position","team","conference","countablePlays","averagePPA.all","averagePPA.pass","averagePPA.rush"
+"1",81,2015,547343,"Karson Roberts","QB","Air Force","Mountain West",311,0.307,0.45,0.172
+"2",304,2017,4038186,"Arion Worthman","QB","Air Force","Mountain West",322,0.233,0.258,0.216
+"3",649,2019,4382332,"Donald Hammond III","QB","Air Force","Mountain West",231,0.57,0.665,0.476
+"4",48,2015,550357,"Thomas Woodson","QB","Akron","Mid-American",415,0.233,0.258,0.169
+"5",208,2016,550357,"Thomas Woodson","QB","Akron","Mid-American",278,0.308,0.343,-0.013
+"6",265,2017,4038741,"Kato Nelson","QB","Akron","Mid-American",235,0.09,0.104,0.062
+"7",277,2017,550357,"Thomas Woodson","QB","Akron","Mid-American",308,0.138,0.15,0.007
+"8",419,2018,4038741,"Kato Nelson","QB","Akron","Mid-American",467,0.177,0.194,0.119
+"9",531,2019,4038741,"Kato Nelson","QB","Akron","Mid-American",385,0.051,0.028,0.165
+"10",85,2015,514124,"Jake Coker","QB","Alabama","SEC",466,0.315,0.328,0.206
+"11",200,2016,4040715,"Jalen Hurts","QB","Alabama","SEC",569,0.286,0.258,0.352
+"12",353,2017,4040715,"Jalen Hurts","QB","Alabama","SEC",402,0.337,0.262,0.499
+"13",523,2018,4241479,"Tua Tagovailoa","QB","Alabama","SEC",358,0.572,0.592,0.414
+"14",652,2019,4241479,"Tua Tagovailoa","QB","Alabama","SEC",274,0.71,0.699,0.936
+"15",743,2020,4241464,"Mac Jones","QB","Alabama","SEC",436,0.683,0.687,0.597
+"16",124,2015,548447,"Taylor Lamb","QB","Appalachian State","Sun Belt",358,0.489,0.481,0.521
+"17",206,2016,548447,"Taylor Lamb","QB","Appalachian State","Sun Belt",376,0.299,0.223,0.633
+"18",371,2017,548447,"Taylor Lamb","QB","Appalachian State","Sun Belt",408,0.404,0.332,0.766
+"19",517,2018,4036429,"Zac Thomas","QB","Appalachian State","Sun Belt",343,0.461,0.41,0.639
+"20",633,2019,4036429,"Zac Thomas","QB","Appalachian State","Sun Belt",461,0.381,0.354,0.501
+"21",703,2020,4036429,"Zac Thomas","QB","Appalachian State","Sun Belt",378,0.309,0.272,0.468
+"22",92,2015,552097,"Anu Solomon","QB","Arizona","Pac-12",393,0.35,0.335,0.456
+"23",234,2016,3133993,"Brandon Dawkins","QB","Arizona","Pac-12",273,0.383,0.193,0.707
+"24",385,2017,4039602,"Khalil Tate","QB","Arizona","Pac-12",327,0.502,0.392,0.653
+"25",511,2018,4039602,"Khalil Tate","QB","Arizona","Pac-12",287,0.423,0.443,0.314
+"26",580,2019,4039602,"Khalil Tate","QB","Arizona","Pac-12",350,0.271,0.222,0.466
+"27",56,2015,517393,"Mike Bercovici","QB","Arizona State","Pac-12",635,0.249,0.266,0.121
+"28",164,2016,3128814,"Manny Wilkins","QB","Arizona State","Pac-12",438,0.203,0.185,0.268
+"29",326,2017,3128814,"Manny Wilkins","QB","Arizona State","Pac-12",541,0.271,0.266,0.291
+"30",488,2018,3128814,"Manny Wilkins","QB","Arizona State","Pac-12",500,0.334,0.332,0.342
+"31",593,2019,4426348,"Jayden Daniels","QB","Arizona State","Pac-12",468,0.301,0.294,0.326
+"32",126,2015,515915,"Brandon Allen","QB","Arkansas","SEC",425,0.534,0.547,0.414
+"33",241,2016,547206,"Austin Allen","QB","Arkansas","SEC",461,0.414,0.433,0.147
+"34",317,2017,4035584,"Cole Kelley","QB","Arkansas","SEC",202,0.251,0.209,0.436
+"35",348,2017,547206,"Austin Allen","QB","Arkansas","SEC",221,0.321,0.331,0.212
+"36",423,2018,3886621,"Ty Storey","QB","Arkansas","SEC",314,0.189,0.176,0.258
+"37",709,2020,4034948,"Feleipe Franks","QB","Arkansas","SEC",339,0.316,0.398,0.036
+"38",37,2015,538156,"Fredi Knighten","QB","Arkansas State","Sun Belt",392,0.202,0.211,0.184
+"39",214,2016,3116379,"Justice Hansen","QB","Arkansas State","Sun Belt",415,0.318,0.357,0.093
+"40",332,2017,3116379,"Justice Hansen","QB","Arkansas State","Sun Belt",616,0.29,0.274,0.376
+"41",502,2018,3116379,"Justice Hansen","QB","Arkansas State","Sun Belt",470,0.385,0.4,0.325
+"42",630,2019,4361222,"Layne Hatcher","QB","Arkansas State","Sun Belt",385,0.376,0.396,0.245
+"43",711,2020,4036473,"Logan Bonner","QB","Arkansas State","Sun Belt",294,0.332,0.355,0.021
+"44",734,2020,4361222,"Layne Hatcher","QB","Arkansas State","Sun Belt",236,0.465,0.529,0.041
+"45",158,2016,3129089,"Ahmad Bradshaw","QB","Army","FBS Independents",250,0.186,-0.02,0.298
+"46",368,2017,3129089,"Ahmad Bradshaw","QB","Army","FBS Independents",284,0.387,-0.053,0.466
+"47",519,2018,4036923,"Kelvin Hopkins Jr.","QB","Army","FBS Independents",296,0.471,0.793,0.328
+"48",572,2019,4036923,"Kelvin Hopkins Jr.","QB","Army","FBS Independents",216,0.254,0.036,0.384
+"49",91,2015,550019,"Jeremy Johnson","QB","Auburn","SEC",200,0.349,0.289,0.616
+"50",217,2016,3121585,"Sean White","QB","Auburn","SEC",262,0.335,0.3,0.522
+"51",335,2017,3892775,"Jarrett Stidham","QB","Auburn","SEC",463,0.292,0.295,0.27
+"52",452,2018,3892775,"Jarrett Stidham","QB","Auburn","SEC",439,0.262,0.288,0.058
+"53",585,2019,4567218,"Bo Nix","QB","Auburn","SEC",471,0.288,0.276,0.348
+"54",690,2020,4567218,"Bo Nix","QB","Auburn","SEC",464,0.245,0.196,0.455
+"55",34,2015,3915468,"Riley Neal","QB","Ball State","Mid-American",475,0.188,0.162,0.319
+"56",160,2016,3915468,"Riley Neal","QB","Ball State","Mid-American",516,0.19,0.15,0.337
+"57",255,2017,546005,"Jack Milas","QB","Ball State","Mid-American",249,-0.14,-0.158,0.005
+"58",455,2018,3915468,"Riley Neal","QB","Ball State","Mid-American",415,0.266,0.172,0.722
+"59",603,2019,4039210,"Drew Plitt","QB","Ball State","Mid-American",458,0.313,0.312,0.318
+"60",714,2020,4039210,"Drew Plitt","QB","Ball State","Mid-American",283,0.347,0.334,0.411
+"61",127,2015,535511,"Seth Russell","QB","Baylor","Big 12",249,0.674,0.643,0.808
+"62",194,2016,4035409,"Zach Smith","QB","Baylor","Big 12",218,0.272,0.285,0.052
+"63",229,2016,535511,"Seth Russell","QB","Baylor","Big 12",371,0.364,0.289,0.622
+"64",283,2017,4035409,"Zach Smith","QB","Baylor","Big 12",230,0.158,0.174,-0.094
+"65",343,2017,4241222,"Charlie Brewer","QB","Baylor","Big 12",267,0.312,0.342,0.177
+"66",492,2018,4241222,"Charlie Brewer","QB","Baylor","Big 12",519,0.354,0.336,0.426
+"67",606,2019,4241222,"Charlie Brewer","QB","Baylor","Big 12",528,0.317,0.304,0.362
+"68",667,2020,4241222,"Charlie Brewer","QB","Baylor","Big 12",426,0.141,0.121,0.229
+"69",89,2015,3722362,"Brett Rypien","QB","Boise State","Mountain West",467,0.341,0.334,0.472
+"70",246,2016,3722362,"Brett Rypien","QB","Boise State","Mountain West",433,0.473,0.472,0.483
+"71",361,2017,3722362,"Brett Rypien","QB","Boise State","Mountain West",384,0.366,0.374,0.181
+"72",505,2018,3722362,"Brett Rypien","QB","Boise State","Mountain West",496,0.392,0.413,0.211
+"73",612,2019,4426499,"Hank Bachmeier","QB","Boise State","Mountain West",258,0.338,0.345,0.274
+"74",152,2016,530944,"Patrick Towles","QB","Boston College","ACC",385,0.175,0.117,0.374
+"75",271,2017,4035312,"Anthony Brown","QB","Boston College","ACC",301,0.114,0.051,0.569
+"76",463,2018,4035312,"Anthony Brown","QB","Boston College","ACC",339,0.281,0.26,0.461
+"77",609,2019,4239939,"Dennis Grosel","QB","Boston College","ACC",210,0.325,0.274,0.503
+"78",713,2020,4372768,"Phil Jurkovec","QB","Boston College","ACC",375,0.339,0.322,0.451
+"79",130,2016,3914395,"James Morgan","QB","Bowling Green","Mid-American",329,0.02,-0.012,0.358
+"80",261,2017,3914395,"James Morgan","QB","Bowling Green","Mid-American",234,0.02,0.003,0.253
+"81",309,2017,4244029,"Jarret Doege","QB","Bowling Green","Mid-American",217,0.244,0.271,-0.095
+"82",440,2018,4244029,"Jarret Doege","QB","Bowling Green","Mid-American",437,0.221,0.243,-0.173
+"83",532,2019,4046743,"Grant Loy","QB","Bowling Green","Mid-American",303,0.062,-0.006,0.215
+"84",60,2015,513614,"Joe Licata","QB","Buffalo","Mid-American",436,0.257,0.252,0.392
+"85",134,2016,3916564,"Tyree Jackson","QB","Buffalo","Mid-American",407,0.098,0.069,0.2
+"86",378,2017,3916564,"Tyree Jackson","QB","Buffalo","Mid-American",283,0.436,0.424,0.517
+"87",489,2018,3916564,"Tyree Jackson","QB","Buffalo","Mid-American",461,0.335,0.289,0.795
+"88",44,2015,545796,"Tanner Mangum","QB","BYU","FBS Independents",506,0.223,0.24,0.002
+"89",168,2016,482594,"Taysom Hill","QB","BYU","FBS Independents",466,0.209,0.108,0.549
+"90",272,2017,545796,"Tanner Mangum","QB","BYU","FBS Independents",291,0.115,0.135,-0.112
+"91",483,2018,4361259,"Zach Wilson","QB","BYU","FBS Independents",255,0.325,0.278,0.511
+"92",566,2019,4361259,"Zach Wilson","QB","BYU","FBS Independents",381,0.237,0.224,0.325
+"93",742,2020,4361259,"Zach Wilson","QB","BYU","FBS Independents",334,0.626,0.622,0.644
+"94",115,2015,547401,"Jared Goff","QB","California","Pac-12",583,0.426,0.422,0.485
+"95",188,2016,550386,"Davis Webb","QB","California","Pac-12",651,0.259,0.257,0.329
+"96",287,2017,3858269,"Ross Bowers","QB","California","Pac-12",523,0.177,0.173,0.238
+"97",431,2018,4242408,"Chase Garbers","QB","California","Pac-12",353,0.199,0.087,0.635
+"98",617,2019,4242408,"Chase Garbers","QB","California","Pac-12",302,0.347,0.344,0.356
+"99",90,2015,531455,"Cooper Rush","QB","Central Michigan","Mid-American",508,0.341,0.333,0.455
+"100",177,2016,531455,"Cooper Rush","QB","Central Michigan","Mid-American",524,0.235,0.236,0.234
+"101",294,2017,546706,"Shane Morris","QB","Central Michigan","Mid-American",526,0.195,0.194,0.204
+"102",407,2018,4039268,"Tommy Lazzaro","QB","Central Michigan","Mid-American",238,0.115,0.038,0.256
+"103",561,2019,3886565,"Quinten Dormady","QB","Central Michigan","Mid-American",301,0.225,0.249,-0.093
+"104",1,2015,551918,"Lee McNeill","QB","Charlotte","Conference USA",220,-0.185,-0.152,-0.549
+"105",173,2016,3139889,"Hasaan Klugh","QB","Charlotte","Conference USA",303,0.227,0.106,0.621
+"106",256,2017,3139889,"Hasaan Klugh","QB","Charlotte","Conference USA",422,-0.029,-0.175,0.359
+"107",622,2019,4259269,"Chris Reynolds","QB","Charlotte","Conference USA",445,0.356,0.35,0.37
+"108",670,2020,4259269,"Chris Reynolds","QB","Charlotte","Conference USA",226,0.167,0.215,-0.096
+"109",47,2015,3125813,"Hayden Moore","QB","Cincinnati","American Athletic",277,0.226,0.222,0.253
+"110",109,2015,534259,"Gunner Kiel","QB","Cincinnati","American Athletic",345,0.397,0.41,0.217
+"111",153,2016,3125813,"Hayden Moore","QB","Cincinnati","American Athletic",309,0.18,0.195,0.066
+"112",291,2017,3125813,"Hayden Moore","QB","Cincinnati","American Athletic",512,0.183,0.168,0.272
+"113",482,2018,4239086,"Desmond Ridder","QB","Cincinnati","American Athletic",454,0.324,0.368,0.21
+"114",579,2019,4239086,"Desmond Ridder","QB","Cincinnati","American Athletic",463,0.268,0.19,0.499
+"115",730,2020,4239086,"Desmond Ridder","QB","Cincinnati","American Athletic",373,0.447,0.385,0.673
+"116",116,2015,3122840,"Deshaun Watson","QB","Clemson","ACC",692,0.431,0.429,0.435
+"117",221,2016,3122840,"Deshaun Watson","QB","Clemson","ACC",729,0.346,0.381,0.21
+"118",315,2017,3728240,"Kelly Bryant","QB","Clemson","ACC",583,0.25,0.234,0.29
+"119",507,2018,4360310,"Trevor Lawrence","QB","Clemson","ACC",435,0.4,0.398,0.418
+"120",643,2019,4360310,"Trevor Lawrence","QB","Clemson","ACC",505,0.472,0.411,0.773
+"121",739,2020,4360310,"Trevor Lawrence","QB","Clemson","ACC",397,0.497,0.49,0.545
+"122",357,2017,557700,"Tyler Keane","QB","Coastal Carolina","Sun Belt",209,0.353,0.391,0.085
+"123",541,2019,4361032,"Bryce Carpenter","QB","Coastal Carolina","Sun Belt",244,0.128,0.176,0.051
+"124",597,2019,4361033,"Fred Payton","QB","Coastal Carolina","Sun Belt",240,0.309,0.341,0.165
+"125",741,2020,4427936,"Grayson McCall","QB","Coastal Carolina","Sun Belt",357,0.549,0.652,0.283
+"126",79,2015,550278,"Sefo Liufau","QB","Colorado","Pac-12",391,0.301,0.3,0.305
+"127",178,2016,550278,"Sefo Liufau","QB","Colorado","Pac-12",435,0.237,0.251,0.202
+"128",330,2017,3915436,"Steven Montez","QB","Colorado","Pac-12",507,0.286,0.284,0.295
+"129",447,2018,3915436,"Steven Montez","QB","Colorado","Pac-12",487,0.25,0.22,0.444
+"130",578,2019,3915436,"Steven Montez","QB","Colorado","Pac-12",468,0.268,0.238,0.543
+"131",688,2020,4040880,"Sam Noyer","QB","Colorado","Pac-12",206,0.243,0.18,0.489
+"132",83,2015,546267,"Nick Stevens","QB","Colorado State","Mountain West",391,0.313,0.303,0.421
+"133",379,2017,546267,"Nick Stevens","QB","Colorado State","Mountain West",509,0.444,0.445,0.434
+"134",402,2018,4036357,"Collin Hill","QB","Colorado State","Mountain West",216,0.103,0.082,0.364
+"135",481,2018,3127291,"K.J. Carta-Samuels","QB","Colorado State","Mountain West",299,0.322,0.357,-0.048
+"136",605,2019,4034857,"Patrick O'Brien","QB","Colorado State","Mountain West",398,0.317,0.352,0.019
+"137",36,2015,549956,"Bryant Shirreffs","QB","Connecticut","American Athletic",427,0.199,0.17,0.272
+"138",139,2016,549956,"Bryant Shirreffs","QB","Connecticut","American Athletic",425,0.13,0.186,-0.006
+"139",262,2017,4239134,"David Pindell","QB","Connecticut","American Athletic",230,0.04,-0.014,0.179
+"140",341,2017,549956,"Bryant Shirreffs","QB","Connecticut","American Athletic",345,0.309,0.342,0.163
+"141",456,2018,4239134,"David Pindell","QB","Connecticut","American Athletic",526,0.27,0.167,0.451
+"142",534,2019,4428977,"Jack Zergiotis","QB","Connecticut","American Athletic",299,0.087,0.079,0.206
+"143",43,2015,530478,"Thomas Sirk","QB","Duke","ACC",587,0.218,0.226,0.196
+"144",183,2016,3917792,"Daniel Jones","QB","Duke","ACC",533,0.246,0.204,0.439
+"145",269,2017,3917792,"Daniel Jones","QB","Duke","ACC",611,0.112,0.034,0.379
+"146",432,2018,3917792,"Daniel Jones","QB","Duke","ACC",495,0.203,0.172,0.37
+"147",538,2019,3917793,"Quentin Harris","QB","Duke","ACC",512,0.116,0.098,0.17
+"148",658,2020,4239994,"Chase Brice","QB","Duke","ACC",390,0.105,0.092,0.19
+"149",70,2015,3126168,"Blake Kemp","QB","East Carolina","American Athletic",411,0.276,0.285,0.144
+"150",171,2016,530738,"Philip Nelson","QB","East Carolina","American Athletic",408,0.225,0.231,0.183
+"151",182,2016,4038524,"Gardner Minshew","QB","East Carolina","American Athletic",221,0.246,0.282,-0.385
+"152",297,2017,530478,"Thomas Sirk","QB","East Carolina","American Athletic",305,0.201,0.193,0.233
+"153",305,2017,4038524,"Gardner Minshew","QB","East Carolina","American Athletic",320,0.233,0.251,-0.277
+"154",396,2018,4038520,"Reid Herring","QB","East Carolina","American Athletic",262,0.071,0.09,-0.302
+"155",448,2018,4360131,"Holton Ahlers","QB","East Carolina","American Athletic",366,0.253,0.172,0.488
+"156",598,2019,4360131,"Holton Ahlers","QB","East Carolina","American Athletic",547,0.309,0.327,0.22
+"157",669,2020,4360131,"Holton Ahlers","QB","East Carolina","American Athletic",289,0.158,0.154,0.198
+"158",55,2015,552782,"Brogan Roback","QB","Eastern Michigan","Mid-American",391,0.246,0.26,0.116
+"159",218,2016,552782,"Brogan Roback","QB","Eastern Michigan","Mid-American",433,0.336,0.328,0.387
+"160",296,2017,552782,"Brogan Roback","QB","Eastern Michigan","Mid-American",445,0.199,0.209,0.034
+"161",422,2018,3144983,"Tyler Wiegers","QB","Eastern Michigan","Mid-American",326,0.186,0.247,-0.204
+"162",628,2019,4259127,"Mike Glass III","QB","Eastern Michigan","Mid-American",502,0.372,0.381,0.336
+"163",718,2020,4244804,"Preston Hutchinson","QB","Eastern Michigan","Mid-American",284,0.357,0.353,0.369
+"164",31,2015,3121647,"Treon Harris","QB","Florida","SEC",322,0.172,0.119,0.396
+"165",147,2016,534770,"Austin Appleby","QB","Florida","SEC",249,0.158,0.157,0.167
+"166",161,2016,546362,"Luke Del Rio","QB","Florida","SEC",214,0.191,0.199,0.013
+"167",280,2017,4034948,"Feleipe Franks","QB","Florida","SEC",286,0.145,0.147,0.129
+"168",474,2018,4034948,"Feleipe Franks","QB","Florida","SEC",428,0.304,0.293,0.343
+"169",625,2019,4034946,"Kyle Trask","QB","Florida","SEC",417,0.366,0.395,0.119
+"170",740,2020,4034946,"Kyle Trask","QB","Florida","SEC",486,0.532,0.563,0.244
+"171",18,2015,550876,"Jaquez Johnson","QB","Florida Atlantic","Conference USA",335,0.107,0.113,0.089
+"172",176,2016,3122713,"Jason Driskel","QB","Florida Atlantic","Conference USA",378,0.234,0.188,0.516
+"173",358,2017,3122713,"Jason Driskel","QB","Florida Atlantic","Conference USA",363,0.355,0.348,0.383
+"174",449,2018,4241399,"Chris Robison","QB","Florida Atlantic","Conference USA",344,0.254,0.292,0.076
+"175",587,2019,4241399,"Chris Robison","QB","Florida Atlantic","Conference USA",549,0.289,0.337,-0.089
+"176",656,2020,4258236,"Nick Tronti","QB","Florida Atlantic","Conference USA",202,0.045,0.052,0.022
+"177",32,2015,3128843,"Alex McGough","QB","Florida International","Conference USA",465,0.178,0.163,0.287
+"178",138,2016,3128843,"Alex McGough","QB","Florida International","Conference USA",328,0.113,0.11,0.143
+"179",370,2017,3128843,"Alex McGough","QB","Florida International","Conference USA",430,0.398,0.377,0.524
+"180",513,2018,3914395,"James Morgan","QB","Florida International","Conference USA",350,0.432,0.456,0.035
+"181",584,2019,3914395,"James Morgan","QB","Florida International","Conference USA",383,0.287,0.274,0.504
+"182",106,2015,515409,"Everett Golson","QB","Florida State","ACC",264,0.385,0.451,-0.147
+"183",233,2016,3921561,"Deondre Francois","QB","Florida State","ACC",499,0.381,0.349,0.564
+"184",286,2017,4240020,"James Blackman","QB","Florida State","ACC",356,0.173,0.207,-0.123
+"185",420,2018,3921561,"Deondre Francois","QB","Florida State","ACC",468,0.182,0.2,0.034
+"186",567,2019,4240020,"James Blackman","QB","Florida State","ACC",358,0.24,0.246,0.2
+"187",696,2020,4360799,"Jordan Travis","QB","Florida State","ACC",229,0.28,0.148,0.505
+"188",13,2015,3124529,"Kilton Anderson","QB","Fresno State","Mountain West",206,0.079,-0.013,0.462
+"189",162,2016,3918038,"Chason Virgil","QB","Fresno State","Mountain West",397,0.201,0.19,0.268
+"190",362,2017,3127332,"Marcus McMaryion","QB","Fresno State","Mountain West",403,0.366,0.343,0.515
+"191",514,2018,3127332,"Marcus McMaryion","QB","Fresno State","Mountain West",492,0.436,0.391,0.759
+"192",573,2019,4242995,"Jorge Reyna","QB","Fresno State","Mountain West",456,0.258,0.252,0.289
+"193",707,2020,4243322,"Jake Haener","QB","Fresno State","Mountain West",285,0.315,0.3,0.432
+"194",88,2015,530521,"Greyson Lambert","QB","Georgia","SEC",283,0.338,0.371,-0.149
+"195",170,2016,4035003,"Jacob Eason","QB","Georgia","SEC",398,0.213,0.198,0.663
+"196",383,2017,4240689,"Jake Fromm","QB","Georgia","SEC",342,0.465,0.457,0.537
+"197",521,2018,4240689,"Jake Fromm","QB","Georgia","SEC",343,0.524,0.579,-0.064
+"198",594,2019,4240689,"Jake Fromm","QB","Georgia","SEC",419,0.304,0.316,0.096
+"199",204,2016,532925,"Kevin Ellison","QB","Georgia Southern","Sun Belt",245,0.294,0.391,0.211
+"200",117,2015,3124848,"Nick Arbuckle","QB","Georgia State","Sun Belt",539,0.435,0.442,0.324
+"201",191,2016,550226,"Conner Manning","QB","Georgia State","Sun Belt",397,0.268,0.268,0.292
+"202",345,2017,550226,"Conner Manning","QB","Georgia State","Sun Belt",370,0.316,0.334,0.141
+"203",478,2018,4361902,"Dan Ellington","QB","Georgia State","Sun Belt",426,0.313,0.303,0.333
+"204",590,2019,4361902,"Dan Ellington","QB","Georgia State","Sun Belt",455,0.292,0.282,0.318
+"205",679,2020,4568411,"Cornelious Brown","QB","Georgia State","Sun Belt",400,0.216,0.236,0.146
+"206",29,2015,531104,"Justin Thomas","QB","Georgia Tech","ACC",313,0.165,0.215,0.088
+"207",225,2016,531104,"Justin Thomas","QB","Georgia Tech","ACC",281,0.353,0.561,0.087
+"208",322,2017,3917810,"TaQuon Marshall","QB","Georgia Tech","ACC",360,0.263,0.134,0.34
+"209",433,2018,3917810,"TaQuon Marshall","QB","Georgia Tech","ACC",321,0.203,0.148,0.236
+"210",683,2020,4429066,"Jeff Sims","QB","Georgia Tech","ACC",373,0.22,0.132,0.467
+"211",2,2015,513330,"Max Wittek","QB","Hawai'i","Mountain West",258,-0.059,-0.094,0.611
+"212",195,2016,4038224,"Dru Brown","QB","Hawai'i","Mountain West",402,0.273,0.244,0.419
+"213",282,2017,4038224,"Dru Brown","QB","Hawai'i","Mountain West",457,0.156,0.124,0.574
+"214",487,2018,4038220,"Cole McDonald","QB","Hawai'i","Mountain West",615,0.333,0.35,0.245
+"215",616,2019,4038220,"Cole McDonald","QB","Hawai'i","Mountain West",611,0.345,0.332,0.422
+"216",702,2020,4373934,"Chevan Cordeiro","QB","Hawai'i","Mountain West",426,0.299,0.205,0.657
+"217",118,2015,545552,"Greg Ward Jr.","QB","Houston","American Athletic",538,0.438,0.376,0.57
+"218",210,2016,545552,"Greg Ward Jr.","QB","Houston","American Athletic",658,0.309,0.32,0.275
+"219",316,2017,553532,"Kyle Postma","QB","Houston","American Athletic",212,0.251,0.24,0.296
+"220",367,2017,4039300,"D'Eriq King","QB","Houston","American Athletic",242,0.384,0.363,0.443
+"221",522,2018,4039300,"D'Eriq King","QB","Houston","American Athletic",452,0.561,0.521,0.708
+"222",569,2019,4360175,"Clayton Tune","QB","Houston","American Athletic",241,0.247,0.22,0.356
+"223",689,2020,4360175,"Clayton Tune","QB","Houston","American Athletic",313,0.243,0.167,0.665
+"224",20,2015,534652,"Wes Lunt","QB","Illinois","Big Ten",500,0.115,0.114,0.242
+"225",143,2016,534652,"Wes Lunt","QB","Illinois","Big Ten",250,0.152,0.143,0.469
+"226",266,2017,3861927,"Jeff George Jr.","QB","Illinois","Big Ten",208,0.1,0.11,-0.071
+"227",430,2018,3116087,"AJ Bush","QB","Illinois","Big Ten",351,0.198,0.037,0.501
+"228",568,2019,4036262,"Brandon Peters","QB","Illinois","Big Ten",343,0.246,0.191,0.564
+"229",119,2015,535825,"Nate Sudfeld","QB","Indiana","Big Ten",444,0.441,0.439,0.462
+"230",189,2016,546687,"Richard Lagow","QB","Indiana","Big Ten",479,0.264,0.273,-0.041
+"231",281,2017,4045290,"Peyton Ramsey","QB","Indiana","Big Ten",296,0.154,0.236,-0.061
+"232",301,2017,546687,"Richard Lagow","QB","Indiana","Big Ten",331,0.217,0.246,-0.187
+"233",425,2018,4045290,"Peyton Ramsey","QB","Indiana","Big Ten",555,0.192,0.164,0.34
+"234",607,2019,4045290,"Peyton Ramsey","QB","Indiana","Big Ten",394,0.323,0.279,0.513
+"235",697,2020,4360423,"Michael Penix Jr.","QB","Indiana","Big Ten",234,0.285,0.26,0.795
+"236",108,2015,535844,"C.J. Beathard","QB","Iowa","Big Ten",455,0.389,0.34,0.655
+"237",148,2016,535844,"C.J. Beathard","QB","Iowa","Big Ten",380,0.164,0.107,0.492
+"238",329,2017,4036149,"Nathan Stanley","QB","Iowa","Big Ten",385,0.278,0.289,0.119
+"239",495,2018,4036149,"Nathan Stanley","QB","Iowa","Big Ten",432,0.359,0.361,0.318
+"240",575,2019,4036149,"Nathan Stanley","QB","Iowa","Big Ten",473,0.263,0.232,0.5
+"241",682,2020,4360480,"Spencer Petras","QB","Iowa","Big Ten",276,0.218,0.184,0.59
+"242",22,2015,511969,"Sam B. Richardson","QB","Iowa State","Big 12",245,0.142,0.136,0.178
+"243",219,2016,559568,"Jacob Park","QB","Iowa State","Big 12",262,0.337,0.335,0.358
+"244",365,2017,552119,"Kyle Kempt","QB","Iowa State","Big 12",274,0.375,0.419,-0.152
+"245",512,2018,4361741,"Brock Purdy","QB","Iowa State","Big 12",287,0.424,0.453,0.338
+"246",621,2019,4361741,"Brock Purdy","QB","Iowa State","Big 12",565,0.355,0.383,0.174
+"247",725,2020,4361741,"Brock Purdy","QB","Iowa State","Big 12",449,0.378,0.341,0.566
+"248",8,2015,3917958,"Ryan Willis","QB","Kansas","Big 12",365,0.038,0.018,0.287
+"249",131,2016,545417,"Montell Cozart","QB","Kansas","Big 12",218,0.031,0.005,0.237
+"250",258,2017,3917957,"Carter Stanley","QB","Kansas","Big 12",235,-0.003,0.004,-0.034
+"251",273,2017,3127261,"Peyton Bender","QB","Kansas","Big 12",298,0.127,0.134,-0.112
+"252",408,2018,3127261,"Peyton Bender","QB","Kansas","Big 12",354,0.122,0.127,-0.015
+"253",581,2019,3917957,"Carter Stanley","QB","Kansas","Big 12",435,0.272,0.322,-0.109
+"254",653,2020,4596472,"Jalon Daniels","QB","Kansas","Big 12",223,-0.036,-0.11,0.227
+"255",45,2015,517248,"Joe Hubener","QB","Kansas State","Big 12",450,0.223,0.163,0.335
+"256",207,2016,550448,"Jesse Ertz","QB","Kansas State","Big 12",445,0.305,0.203,0.485
+"257",446,2018,4036419,"Skylar John Thompson","QB","Kansas State","Big 12",313,0.241,0.238,0.248
+"258",631,2019,4036419,"Skylar John Thompson","QB","Kansas State","Big 12",403,0.377,0.365,0.418
+"259",674,2020,4429955,"Will Howard","QB","Kansas State","Big 12",244,0.191,0.207,0.152
+"260",3,2015,3125858,"George Bollas","QB","Kent State","Mid-American",203,-0.036,-0.069,0.04
+"261",155,2016,550339,"Nick Holley","QB","Kent State","Mid-American",347,0.181,0.09,0.27
+"262",257,2017,3125858,"George Bollas","QB","Kent State","Mid-American",283,-0.023,-0.041,0.019
+"263",406,2018,4362340,"Woody Barrett","QB","Kent State","Mid-American",546,0.112,-0.012,0.565
+"264",627,2019,4244068,"Dustin Crum","QB","Kent State","Mid-American",480,0.37,0.307,0.539
+"265",28,2015,530944,"Patrick Towles","QB","Kentucky","SEC",402,0.164,0.114,0.513
+"266",212,2016,557882,"Stephen Johnson","QB","Kentucky","SEC",351,0.315,0.277,0.454
+"267",327,2017,557882,"Stephen Johnson","QB","Kentucky","SEC",416,0.272,0.196,0.613
+"268",435,2018,4038940,"Terry Wilson","QB","Kentucky","SEC",354,0.206,0.143,0.37
+"269",662,2020,4038940,"Terry Wilson","QB","Kentucky","SEC",300,0.126,0.092,0.2
+"270",436,2018,4029885,"Stephen Calvert","QB","Liberty","FBS Independents",469,0.214,0.221,-0.101
+"271",626,2019,4029885,"Stephen Calvert","QB","Liberty","FBS Independents",474,0.368,0.392,-0.321
+"272",738,2020,4242512,"Malik Willis","QB","Liberty","FBS Independents",400,0.487,0.373,0.745
+"273",30,2015,531430,"Jalen Nixon","QB","Louisiana","Sun Belt",200,0.169,0.023,0.526
+"274",49,2015,531678,"Brooks Haack","QB","Louisiana","Sun Belt",244,0.237,0.204,0.465
+"275",141,2016,546033,"Anthony Jennings","QB","Louisiana","Sun Belt",465,0.148,0.089,0.339
+"276",300,2017,3124912,"Jordan Davis","QB","Louisiana","Sun Belt",252,0.209,0.126,0.53
+"277",458,2018,4241553,"Andre Nunez","QB","Louisiana","Sun Belt",341,0.272,0.299,0.056
+"278",639,2019,4241556,"Levi Lewis","QB","Louisiana","Sun Belt",448,0.409,0.389,0.555
+"279",723,2020,4241556,"Levi Lewis","QB","Louisiana","Sun Belt",347,0.378,0.322,0.71
+"280",27,2015,3124944,"Garrett Smith","QB","Louisiana Monroe","Sun Belt",439,0.163,0.206,-0.023
+"281",185,2016,3124944,"Garrett Smith","QB","Louisiana Monroe","Sun Belt",236,0.251,0.189,0.464
+"282",337,2017,4036585,"Caleb Evans","QB","Louisiana Monroe","Sun Belt",483,0.304,0.302,0.31
+"283",460,2018,4036585,"Caleb Evans","QB","Louisiana Monroe","Sun Belt",507,0.274,0.199,0.52
+"284",610,2019,4036585,"Caleb Evans","QB","Louisiana Monroe","Sun Belt",528,0.328,0.255,0.553
+"285",666,2020,4365325,"Colby Suits","QB","Louisiana Monroe","Sun Belt",279,0.136,0.135,0.144
+"286",101,2015,511889,"Jeff Driskel","QB","Louisiana Tech","Conference USA",532,0.375,0.382,0.332
+"287",248,2016,531316,"Ryan Higgins","QB","Louisiana Tech","Conference USA",582,0.494,0.518,0.317
+"288",321,2017,3914382,"J'Mar Smith","QB","Louisiana Tech","Conference USA",525,0.262,0.241,0.36
+"289",428,2018,3914382,"J'Mar Smith","QB","Louisiana Tech","Conference USA",543,0.196,0.188,0.264
+"290",620,2019,3914382,"J'Mar Smith","QB","Louisiana Tech","Conference USA",466,0.352,0.355,0.339
+"291",668,2020,4043980,"Luke Anthony","QB","Louisiana Tech","Conference USA",268,0.15,0.105,0.557
+"292",75,2015,3916387,"Lamar Jackson","QB","Louisville","ACC",408,0.286,0.147,0.557
+"293",235,2016,3916387,"Lamar Jackson","QB","Louisville","ACC",660,0.398,0.311,0.583
+"294",380,2017,3916387,"Lamar Jackson","QB","Louisville","ACC",653,0.448,0.367,0.627
+"295",394,2018,4035995,"Jawon Pass","QB","Louisville","ACC",366,0.068,0.055,0.154
+"296",645,2019,4240069,"Malik Cunningham","QB","Louisville","ACC",298,0.486,0.534,0.385
+"297",727,2020,4240069,"Malik Cunningham","QB","Louisville","ACC",430,0.381,0.321,0.564
+"298",86,2015,559751,"Brandon Harris","QB","LSU","SEC",341,0.327,0.333,0.291
+"299",222,2016,550170,"Danny Etling","QB","LSU","SEC",307,0.346,0.332,0.516
+"300",364,2017,550170,"Danny Etling","QB","LSU","SEC",346,0.374,0.356,0.492
+"301",461,2018,3915511,"Joe Burrow","QB","LSU","SEC",505,0.277,0.242,0.43
+"302",651,2019,3915511,"Joe Burrow","QB","LSU","SEC",635,0.633,0.645,0.553
+"303",700,2020,4685740,"Max Johnson","QB","LSU","SEC",203,0.292,0.296,0.28
+"304",53,2015,3931782,"Chase Litton","QB","Marshall","Conference USA",429,0.243,0.259,0.039
+"305",133,2016,3931782,"Chase Litton","QB","Marshall","Conference USA",344,0.09,0.086,0.287
+"306",336,2017,3931782,"Chase Litton","QB","Marshall","Conference USA",470,0.3,0.304,0.224
+"307",438,2018,4261909,"Isaiah Green","QB","Marshall","Conference USA",374,0.22,0.224,0.176
+"308",551,2019,4261909,"Isaiah Green","QB","Marshall","Conference USA",447,0.178,0.16,0.25
+"309",684,2020,4430686,"Grant Wells","QB","Marshall","Conference USA",324,0.225,0.197,0.393
+"310",12,2015,534317,"Perry Hills","QB","Maryland","Big Ten",285,0.053,-0.105,0.388
+"311",166,2016,534317,"Perry Hills","QB","Maryland","Big Ten",282,0.204,0.143,0.455
+"312",259,2017,4036215,"Max Bortenschlager","QB","Maryland","Big Ten",302,0.001,-0.016,0.101
+"313",403,2018,4241937,"Kasim Hill","QB","Maryland","Big Ten",210,0.104,0.117,0.016
+"314",529,2019,4037603,"Josh Jackson","QB","Maryland","Big Ten",258,0.022,0.013,0.097
+"315",111,2015,534849,"Paxton Lynch","QB","Memphis","American Athletic",529,0.404,0.4,0.427
+"316",232,2016,546539,"Riley Ferguson","QB","Memphis","American Athletic",508,0.374,0.376,0.346
+"317",381,2017,546539,"Riley Ferguson","QB","Memphis","American Athletic",525,0.457,0.451,0.549
+"318",493,2018,3893630,"Brady White","QB","Memphis","American Athletic",440,0.357,0.387,-0.063
+"319",644,2019,3893630,"Brady White","QB","Memphis","American Athletic",477,0.483,0.491,0.378
+"320",722,2020,3893630,"Brady White","QB","Memphis","American Athletic",478,0.369,0.356,0.509
+"321",96,2015,3123048,"Brad Kaaya","QB","Miami","ACC",420,0.363,0.368,0.256
+"322",220,2016,3123048,"Brad Kaaya","QB","Miami","ACC",455,0.345,0.349,0.225
+"323",307,2017,3123047,"Malik Rosier","QB","Miami","ACC",545,0.238,0.212,0.35
+"324",410,2018,4240628,"N'Kosi Perry","QB","Miami","ACC",250,0.148,0.106,0.337
+"325",466,2018,3123047,"Malik Rosier","QB","Miami","ACC",209,0.291,0.17,0.708
+"326",555,2019,4362507,"Jarren Williams","QB","Miami","ACC",340,0.188,0.223,-0.106
+"327",724,2020,4039300,"D'Eriq King","QB","Miami","ACC",456,0.378,0.36,0.441
+"328",5,2015,3915317,"Billy Bahl","QB","Miami (OH)","Mid-American",258,0.013,0.003,0.14
+"329",231,2016,3125968,"Gus Ragland","QB","Miami (OH)","Mid-American",260,0.367,0.395,0.288
+"330",289,2017,3125968,"Gus Ragland","QB","Miami (OH)","Mid-American",342,0.181,0.188,0.142
+"331",486,2018,3125968,"Gus Ragland","QB","Miami (OH)","Mid-American",415,0.333,0.336,0.32
+"332",539,2019,4427243,"Brett Gabbert","QB","Miami (OH)","Mid-American",402,0.119,0.133,0.048
+"333",100,2015,518380,"Jake Rudock","QB","Michigan","Big Ten",447,0.373,0.346,0.642
+"334",213,2016,3115966,"Wilton Speight","QB","Michigan","Big Ten",359,0.318,0.32,0.265
+"335",504,2018,4035292,"Shea Patterson","QB","Michigan","Big Ten",391,0.391,0.365,0.561
+"336",576,2019,4035292,"Shea Patterson","QB","Michigan","Big Ten",466,0.264,0.273,0.206
+"337",97,2015,512705,"Connor Cook","QB","Michigan State","Big Ten",458,0.365,0.362,0.41
+"338",227,2016,535578,"Tyler O'Connor","QB","Michigan State","Big Ten",324,0.357,0.361,0.332
+"339",346,2017,3929824,"Brian Lewerke","QB","Michigan State","Big Ten",538,0.316,0.268,0.51
+"340",405,2018,3929824,"Brian Lewerke","QB","Michigan State","Big Ten",423,0.108,0.07,0.29
+"341",560,2019,3929824,"Brian Lewerke","QB","Michigan State","Big Ten",543,0.22,0.194,0.347
+"342",110,2015,545683,"Brent Stockstill","QB","Middle Tennessee","Conference USA",540,0.398,0.404,0.329
+"343",238,2016,545683,"Brent Stockstill","QB","Middle Tennessee","Conference USA",407,0.406,0.391,0.582
+"344",290,2017,3914460,"John Urzua","QB","Middle Tennessee","Conference USA",238,0.182,0.174,0.306
+"345",308,2017,545683,"Brent Stockstill","QB","Middle Tennessee","Conference USA",275,0.242,0.229,0.381
+"346",437,2018,545683,"Brent Stockstill","QB","Middle Tennessee","Conference USA",573,0.22,0.219,0.227
+"347",604,2019,4374350,"Asher O'Hara","QB","Middle Tennessee","Conference USA",527,0.316,0.303,0.341
+"348",686,2020,4374350,"Asher O'Hara","QB","Middle Tennessee","Conference USA",461,0.238,0.243,0.228
+"349",52,2015,530731,"Mitch Leidner","QB","Minnesota","Big Ten",508,0.242,0.27,0.107
+"350",174,2016,530731,"Mitch Leidner","QB","Minnesota","Big Ten",416,0.23,0.181,0.39
+"351",260,2017,3728285,"Demry Croft","QB","Minnesota","Big Ten",201,0.019,-0.153,0.414
+"352",398,2018,4360936,"Zack Annexstad","QB","Minnesota","Big Ten",206,0.08,0.084,-0.006
+"353",648,2019,4240756,"Tanner Morgan","QB","Minnesota","Big Ten",376,0.562,0.592,0.255
+"354",705,2020,4240756,"Tanner Morgan","QB","Minnesota","Big Ten",204,0.311,0.315,0.253
+"355",94,2015,512030,"Dak Prescott","QB","Mississippi State","SEC",631,0.36,0.339,0.446
+"356",209,2016,558337,"Nick Fitzgerald","QB","Mississippi State","SEC",555,0.308,0.159,0.617
+"357",320,2017,558337,"Nick Fitzgerald","QB","Mississippi State","SEC",400,0.259,0.136,0.503
+"358",429,2018,558337,"Nick Fitzgerald","QB","Mississippi State","SEC",499,0.198,0.093,0.361
+"359",583,2019,3791110,"Tommy Stevens","QB","Mississippi State","SEC",242,0.279,0.213,0.453
+"360",613,2019,4426966,"Garrett Shrader","QB","Mississippi State","SEC",261,0.339,0.217,0.545
+"361",654,2020,4044431,"K.J. Costello","QB","Mississippi State","SEC",232,-0.032,-0.031,-0.048
+"362",663,2020,4566196,"Will Rogers","QB","Mississippi State","SEC",374,0.131,0.105,1.074
+"363",4,2015,3924327,"Drew Lock","QB","Missouri","SEC",313,-0.001,-0.045,0.449
+"364",181,2016,3924327,"Drew Lock","QB","Missouri","SEC",481,0.243,0.23,0.382
+"365",382,2017,3924327,"Drew Lock","QB","Missouri","SEC",461,0.459,0.482,0.159
+"366",508,2018,3924327,"Drew Lock","QB","Missouri","SEC",487,0.413,0.42,0.342
+"367",564,2019,3728240,"Kelly Bryant","QB","Missouri","SEC",390,0.229,0.242,0.18
+"368",704,2020,4426444,"Connor Bazelak","QB","Missouri","SEC",357,0.31,0.345,-0.026
+"369",107,2015,530568,"Keenan Reynolds","QB","Navy","American Athletic",380,0.387,0.444,0.358
+"370",242,2016,551208,"Will Worth","QB","Navy","American Athletic",380,0.418,0.59,0.327
+"371",453,2018,4039436,"Malcolm Perry","QB","Navy","American Athletic",212,0.263,0.148,0.296
+"372",647,2019,4039436,"Malcolm Perry","QB","Navy","American Athletic",377,0.521,0.459,0.543
+"373",42,2015,512191,"Jacoby Brissett","QB","NC State","ACC",530,0.218,0.179,0.372
+"374",198,2016,546288,"Ryan Finley","QB","NC State","ACC",471,0.283,0.327,-0.041
+"375",359,2017,546288,"Ryan Finley","QB","NC State","ACC",543,0.361,0.339,0.549
+"376",506,2018,546288,"Ryan Finley","QB","NC State","ACC",482,0.4,0.414,0.207
+"377",543,2019,4361653,"Devin Leary","QB","NC State","ACC",246,0.136,0.094,0.425
+"378",701,2020,4240025,"Bailey Hockman","QB","NC State","ACC",320,0.296,0.306,0.213
+"379",77,2015,533270,"Tommy Armstrong Jr.","QB","Nebraska","Big Ten",494,0.297,0.241,0.56
+"380",216,2016,533270,"Tommy Armstrong Jr.","QB","Nebraska","Big Ten",405,0.333,0.328,0.346
+"381",302,2017,545757,"Tanner Lee","QB","Nebraska","Big Ten",457,0.228,0.23,0.153
+"382",468,2018,4361182,"Adrian Martinez","QB","Nebraska","Big Ten",481,0.292,0.212,0.54
+"383",559,2019,4361182,"Adrian Martinez","QB","Nebraska","Big Ten",392,0.219,0.154,0.363
+"384",719,2020,4361182,"Adrian Martinez","QB","Nebraska","Big Ten",239,0.358,0.197,0.695
+"385",76,2015,536228,"Tyler Stewart","QB","Nevada","Mountain West",423,0.289,0.258,0.425
+"386",199,2016,536228,"Tyler Stewart","QB","Nevada","Mountain West",217,0.286,0.265,0.392
+"387",324,2017,3122611,"Ty Gangi","QB","Nevada","Mountain West",427,0.268,0.278,0.183
+"388",451,2018,3122611,"Ty Gangi","QB","Nevada","Mountain West",488,0.259,0.256,0.297
+"389",547,2019,4361435,"Carson Strong","QB","Nevada","Mountain West",413,0.158,0.158,0.154
+"390",715,2020,4361435,"Carson Strong","QB","Nevada","Mountain West",382,0.348,0.371,-0.22
+"391",73,2015,551028,"Lamar Jordan","QB","New Mexico","Mountain West",263,0.284,0.306,0.264
+"392",424,2018,3915379,"Sheriron Jones","QB","New Mexico","Mountain West",251,0.192,0.131,0.386
+"393",548,2019,4039390,"Tevaka Tuioti","QB","New Mexico","Mountain West",243,0.16,0.073,0.615
+"394",144,2016,3124981,"Tyler Rogers","QB","New Mexico State","FBS Independents",488,0.154,0.078,0.495
+"395",303,2017,3124981,"Tyler Rogers","QB","New Mexico State","FBS Independents",631,0.228,0.228,0.235
+"396",401,2018,4241635,"Josh Adkins","QB","New Mexico State","FBS Independents",479,0.1,0.119,-0.031
+"397",536,2019,4241635,"Josh Adkins","QB","New Mexico State","FBS Independents",538,0.089,0.078,0.156
+"398",105,2015,516347,"Marquise Williams","QB","North Carolina","ACC",507,0.383,0.335,0.513
+"399",244,2016,545238,"Mitch Trubisky","QB","North Carolina","ACC",535,0.441,0.453,0.36
+"400",415,2018,3895838,"Nathan Elliott","QB","North Carolina","ACC",358,0.161,0.196,-0.186
+"401",634,2019,4426875,"Sam Howell","QB","North Carolina","ACC",516,0.382,0.408,0.183
+"402",737,2020,4426875,"Sam Howell","QB","North Carolina","ACC",440,0.481,0.502,0.348
+"403",10,2015,3914500,"DaMarcus Smith","QB","North Texas","Conference USA",299,0.045,-0.061,0.342
+"404",135,2016,4039073,"Mason Fine","QB","North Texas","Conference USA",349,0.098,0.061,0.277
+"405",334,2017,4039073,"Mason Fine","QB","North Texas","Conference USA",606,0.292,0.32,0.095
+"406",480,2018,4039073,"Mason Fine","QB","North Texas","Conference USA",531,0.321,0.354,-0.013
+"407",589,2019,4039073,"Mason Fine","QB","North Texas","Conference USA",468,0.291,0.32,-0.117
+"408",720,2020,4360163,"Austin Aune","QB","North Texas","Conference USA",211,0.359,0.369,0.263
+"409",59,2015,532480,"Drew Hare","QB","Northern Illinois","Mid-American",354,0.255,0.31,0.085
+"410",190,2016,532644,"Anthony Maddie","QB","Northern Illinois","Mid-American",230,0.267,0.209,0.404
+"411",278,2017,4039470,"Marcus Childers","QB","Northern Illinois","Mid-American",404,0.141,0.094,0.246
+"412",397,2018,4039470,"Marcus Childers","QB","Northern Illinois","Mid-American",546,0.077,0,0.293
+"413",565,2019,3858269,"Ross Bowers","QB","Northern Illinois","Mid-American",320,0.23,0.243,0.022
+"414",665,2020,3858269,"Ross Bowers","QB","Northern Illinois","Mid-American",231,0.135,0.148,-0.205
+"415",35,2015,3116144,"Clayton Thorson","QB","Northwestern","Big Ten",391,0.189,0.095,0.558
+"416",172,2016,3116144,"Clayton Thorson","QB","Northwestern","Big Ten",574,0.226,0.213,0.336
+"417",285,2017,3116144,"Clayton Thorson","QB","Northwestern","Big Ten",544,0.17,0.122,0.56
+"418",414,2018,3116144,"Clayton Thorson","QB","Northwestern","Big Ten",564,0.16,0.138,0.437
+"419",526,2019,4035633,"Aidan Smith","QB","Northwestern","Big Ten",239,-0.041,-0.07,0.042
+"420",698,2020,4045290,"Peyton Ramsey","QB","Northwestern","Big Ten",362,0.289,0.316,0.18
+"421",102,2015,3129302,"DeShone Kizer","QB","Notre Dame","FBS Independents",465,0.376,0.371,0.389
+"422",205,2016,3129302,"DeShone Kizer","QB","Notre Dame","FBS Independents",487,0.298,0.259,0.444
+"423",338,2017,3932451,"Brandon Wimbush","QB","Notre Dame","FBS Independents",410,0.304,0.152,0.689
+"424",500,2018,4046678,"Ian Book","QB","Notre Dame","FBS Independents",404,0.38,0.411,0.246
+"425",624,2019,4046678,"Ian Book","QB","Notre Dame","FBS Independents",507,0.363,0.358,0.383
+"426",728,2020,4046678,"Ian Book","QB","Notre Dame","FBS Independents",462,0.382,0.355,0.492
+"427",21,2015,511552,"Derrius Vick","QB","Ohio","Mid-American",339,0.131,0.188,-0.079
+"428",154,2016,3920819,"Quinton Maxwell","QB","Ohio","Mid-American",229,0.181,0.225,0.06
+"429",175,2016,532440,"Greg Windham","QB","Ohio","Mid-American",379,0.233,0.204,0.332
+"430",376,2017,4244688,"Nathan Rourke","QB","Ohio","Mid-American",395,0.422,0.23,0.915
+"431",510,2018,4244688,"Nathan Rourke","QB","Ohio","Mid-American",403,0.422,0.291,0.751
+"432",638,2019,4244688,"Nathan Rourke","QB","Ohio","Mid-American",479,0.408,0.32,0.638
+"433",50,2015,534294,"Cardale Jones","QB","Ohio State","Big Ten",234,0.237,0.304,0.009
+"434",78,2015,545624,"J.T. Barrett","QB","Ohio State","Big Ten",257,0.297,0.129,0.532
+"435",179,2016,545624,"J.T. Barrett","QB","Ohio State","Big Ten",577,0.238,0.204,0.315
+"436",369,2017,545624,"J.T. Barrett","QB","Ohio State","Big Ten",528,0.396,0.38,0.438
+"437",515,2018,4040616,"Dwayne Haskins","QB","Ohio State","Big Ten",606,0.44,0.481,0.047
+"438",646,2019,4362887,"Justin Fields","QB","Ohio State","Big Ten",485,0.512,0.515,0.501
+"439",732,2020,4362887,"Justin Fields","QB","Ohio State","Big Ten",301,0.458,0.395,0.708
+"440",114,2015,550373,"Baker Mayfield","QB","Oklahoma","Big 12",531,0.42,0.434,0.362
+"441",254,2016,550373,"Baker Mayfield","QB","Oklahoma","Big 12",432,0.697,0.768,0.278
+"442",389,2017,550373,"Baker Mayfield","QB","Oklahoma","Big 12",496,0.626,0.66,0.426
+"443",524,2018,3917315,"Kyler Murray","QB","Oklahoma","Big 12",509,0.732,0.722,0.761
+"444",650,2019,4040715,"Jalen Hurts","QB","Oklahoma","Big 12",569,0.595,0.637,0.523
+"445",733,2020,4426339,"Spencer Rattler","QB","Oklahoma","Big 12",395,0.459,0.49,0.288
+"446",103,2015,3116407,"Mason Rudolph","QB","Oklahoma State","Big 12",488,0.377,0.419,-0.136
+"447",237,2016,3116407,"Mason Rudolph","QB","Oklahoma State","Big 12",525,0.403,0.406,0.379
+"448",386,2017,3116407,"Mason Rudolph","QB","Oklahoma State","Big 12",544,0.528,0.516,0.671
+"449",498,2018,3122424,"Taylor Cornelius","QB","Oklahoma State","Big 12",605,0.372,0.34,0.553
+"450",588,2019,4361825,"Spencer Sanders","QB","Oklahoma State","Big 12",382,0.291,0.326,0.213
+"451",685,2020,4361825,"Spencer Sanders","QB","Oklahoma State","Big 12",341,0.235,0.312,-0.016
+"452",9,2015,3123209,"Shuler Bentley","QB","Old Dominion","Conference USA",312,0.044,0.025,0.254
+"453",62,2015,535113,"David Washington","QB","Old Dominion","Conference USA",215,0.264,0.259,0.297
+"454",197,2016,535113,"David Washington","QB","Old Dominion","Conference USA",376,0.282,0.291,0.222
+"455",445,2018,3914543,"Blake LaRussa","QB","Old Dominion","Conference USA",391,0.232,0.218,0.515
+"456",528,2019,4250764,"Stone Smartt","QB","Old Dominion","Conference USA",279,0.012,-0.114,0.376
+"457",122,2015,534580,"Chad Kelly","QB","Ole Miss","SEC",557,0.477,0.427,0.753
+"458",240,2016,534580,"Chad Kelly","QB","Ole Miss","SEC",408,0.411,0.396,0.487
+"459",351,2017,4035292,"Shea Patterson","QB","Ole Miss","SEC",303,0.332,0.358,0.075
+"460",355,2017,4242418,"Jordan Ta'amu","QB","Ole Miss","SEC",224,0.344,0.337,0.374
+"461",503,2018,4242418,"Jordan Ta'amu","QB","Ole Miss","SEC",484,0.39,0.41,0.292
+"462",574,2019,4426494,"John Rhys Plumlee","QB","Ole Miss","SEC",301,0.262,0.186,0.342
+"463",611,2019,4362874,"Matt Corral","QB","Ole Miss","SEC",233,0.334,0.362,0.214
+"464",735,2020,4362874,"Matt Corral","QB","Ole Miss","SEC",390,0.471,0.426,0.629
+"465",121,2015,511713,"Vernon Adams Jr.","QB","Oregon","Pac-12",337,0.474,0.532,0.189
+"466",215,2016,4038941,"Justin Herbert","QB","Oregon","Pac-12",312,0.32,0.335,0.218
+"467",387,2017,4038941,"Justin Herbert","QB","Oregon","Pac-12",248,0.542,0.526,0.641
+"468",485,2018,4038941,"Justin Herbert","QB","Oregon","Pac-12",475,0.331,0.3,0.578
+"469",635,2019,4038941,"Justin Herbert","QB","Oregon","Pac-12",483,0.389,0.383,0.461
+"470",736,2020,4360689,"Tyler Shough","QB","Oregon","Pac-12",226,0.478,0.495,0.421
+"471",288,2017,550720,"Darell Garretson","QB","Oregon State","Pac-12",257,0.177,0.164,0.279
+"472",450,2018,4042803,"Conor Blount","QB","Oregon State","Pac-12",208,0.254,0.295,0.055
+"473",462,2018,3124900,"Jake Luton","QB","Oregon State","Pac-12",250,0.277,0.311,-0.457
+"474",615,2019,3124900,"Jake Luton","QB","Oregon State","Pac-12",404,0.343,0.331,0.563
+"475",33,2015,552329,"Christian Hackenberg","QB","Penn State","Big Ten",425,0.181,0.155,0.535
+"476",226,2016,3116172,"Trace McSorley","QB","Penn State","Big Ten",530,0.355,0.422,0.136
+"477",352,2017,3116172,"Trace McSorley","QB","Penn State","Big Ten",595,0.333,0.355,0.252
+"478",426,2018,3116172,"Trace McSorley","QB","Penn State","Big Ten",526,0.194,0.105,0.433
+"479",614,2019,4259592,"Sean Clifford","QB","Penn State","Big Ten",433,0.339,0.347,0.309
+"480",706,2020,4259592,"Sean Clifford","QB","Penn State","Big Ten",348,0.314,0.33,0.255
+"481",71,2015,532065,"Nathan Peterman","QB","Pittsburgh","ACC",396,0.277,0.285,0.235
+"482",249,2016,532065,"Nathan Peterman","QB","Pittsburgh","ACC",376,0.508,0.52,0.443
+"483",276,2017,3895785,"Ben Dinucci","QB","Pittsburgh","ACC",211,0.137,0.089,0.352
+"484",404,2018,4240703,"Kenny Pickett","QB","Pittsburgh","ACC",422,0.106,0.043,0.36
+"485",549,2019,4240703,"Kenny Pickett","QB","Pittsburgh","ACC",557,0.171,0.158,0.264
+"486",695,2020,4240703,"Kenny Pickett","QB","Pittsburgh","ACC",412,0.279,0.294,0.202
+"487",16,2015,3116188,"David Blough","QB","Purdue","Big Ten",357,0.098,0.053,0.391
+"488",24,2015,534770,"Austin Appleby","QB","Purdue","Big Ten",261,0.149,0.136,0.206
+"489",146,2016,3116188,"David Blough","QB","Purdue","Big Ten",598,0.156,0.126,0.475
+"490",270,2017,3791146,"Elijah Sindelar","QB","Purdue","Big Ten",342,0.113,0.112,0.122
+"491",472,2018,3116188,"David Blough","QB","Purdue","Big Ten",531,0.303,0.282,0.516
+"492",556,2019,4361493,"Jack Plummer","QB","Purdue","Big Ten",303,0.204,0.211,0.158
+"493",65,2015,514894,"Driphus Jackson","QB","Rice","Conference USA",388,0.269,0.27,0.263
+"494",151,2016,536503,"Tyler Stehling","QB","Rice","Conference USA",413,0.174,0.141,0.315
+"495",417,2018,3122170,"Shawn Stankavage","QB","Rice","Conference USA",260,0.168,0.15,0.317
+"496",544,2019,3912536,"Tom Stewart","QB","Rice","Conference USA",203,0.142,0.141,0.149
+"497",51,2015,547549,"Chris Laviano","QB","Rutgers","Big Ten",369,0.24,0.243,0.214
+"498",129,2016,3127375,"Giovanni Rescigno","QB","Rutgers","Big Ten",220,0.018,-0.034,0.226
+"499",390,2018,4361530,"Artur Sitkowski","QB","Rutgers","Big Ten",293,-0.134,-0.134,-0.132
+"500",527,2019,4360204,"Johnny Langan","QB","Rutgers","Big Ten",288,-0.009,-0.138,0.197
+"501",664,2020,4243539,"Noah Vedral","QB","Rutgers","Big Ten",281,0.131,0.088,0.323
+"502",58,2015,517427,"Maxwell Smith","QB","San Diego State","Mountain West",229,0.255,0.292,-0.211
+"503",192,2016,3139921,"Christian Chapman","QB","San Diego State","Mountain West",288,0.268,0.308,0.023
+"504",318,2017,3139921,"Christian Chapman","QB","San Diego State","Mountain West",321,0.254,0.267,0.17
+"505",473,2018,3921648,"Ryan Agnew","QB","San Diego State","Mountain West",280,0.304,0.271,0.499
+"506",577,2019,3921648,"Ryan Agnew","QB","San Diego State","Mountain West",440,0.266,0.256,0.335
+"507",104,2015,3914864,"Kenny Potter","QB","San José State","Mountain West",382,0.38,0.335,0.534
+"508",156,2016,3914864,"Kenny Potter","QB","San José State","Mountain West",445,0.183,0.162,0.258
+"509",263,2017,4036850,"Montel Aaron","QB","San José State","Mountain West",269,0.065,0.04,0.294
+"510",400,2018,3921685,"Josh Love","QB","San José State","Mountain West",317,0.099,0.121,-0.378
+"511",618,2019,3921685,"Josh Love","QB","San José State","Mountain West",502,0.35,0.355,0.141
+"512",721,2020,4035225,"Nick Starkel","QB","San José State","Mountain West",264,0.368,0.395,-0.517
+"513",46,2015,532113,"Matt Davis","QB","SMU","American Athletic",513,0.224,0.14,0.436
+"514",169,2016,3916208,"Ben Hicks","QB","SMU","American Athletic",464,0.211,0.205,0.339
+"515",342,2017,3916208,"Ben Hicks","QB","SMU","American Athletic",521,0.31,0.302,0.423
+"516",411,2018,3916208,"Ben Hicks","QB","SMU","American Athletic",413,0.149,0.143,0.263
+"517",623,2019,4039034,"Shane Buechele","QB","SMU","American Athletic",549,0.363,0.384,0.154
+"518",726,2020,4039034,"Shane Buechele","QB","SMU","American Athletic",423,0.379,0.352,0.645
+"519",25,2015,3918634,"Cody Clements","QB","South Alabama","Sun Belt",403,0.151,0.155,0.131
+"520",186,2016,3125259,"Dallas Davis","QB","South Alabama","Sun Belt",436,0.252,0.224,0.393
+"521",264,2017,3139423,"Cole Garvin","QB","South Alabama","Sun Belt",263,0.079,0.104,-0.179
+"522",299,2017,3125259,"Dallas Davis","QB","South Alabama","Sun Belt",224,0.207,0.265,-0.065
+"523",476,2018,3129265,"Evan Orth","QB","South Alabama","Sun Belt",215,0.308,0.287,0.425
+"524",530,2019,4249400,"Cephus Johnson","QB","South Alabama","Sun Belt",230,0.044,-0.067,0.382
+"525",676,2020,4373851,"Desmond Trotter","QB","South Alabama","Sun Belt",329,0.205,0.195,0.254
+"526",74,2015,548144,"Perry Orth","QB","South Carolina","SEC",313,0.286,0.283,0.309
+"527",150,2016,4038809,"Jake Bentley","QB","South Carolina","SEC",240,0.173,0.17,0.194
+"528",319,2017,4038809,"Jake Bentley","QB","South Carolina","SEC",467,0.255,0.216,0.626
+"529",494,2018,4038809,"Jake Bentley","QB","South Carolina","SEC",447,0.359,0.355,0.392
+"530",535,2019,4426657,"Ryan Hilinski","QB","South Carolina","SEC",436,0.087,0.091,-0.019
+"531",660,2020,4036357,"Collin Hill","QB","South Carolina","SEC",257,0.12,0.093,0.428
+"532",69,2015,3139591,"Quinton Flowers","QB","South Florida","American Athletic",463,0.276,0.27,0.285
+"533",245,2016,3139591,"Quinton Flowers","QB","South Florida","American Athletic",479,0.461,0.327,0.708
+"534",354,2017,3139591,"Quinton Flowers","QB","South Florida","American Athletic",543,0.343,0.336,0.358
+"535",464,2018,3858944,"Blake Barnett","QB","South Florida","American Athletic",397,0.285,0.238,0.52
+"536",542,2019,4360890,"Jordan McCloud","QB","South Florida","American Athletic",327,0.133,0.046,0.436
+"537",673,2020,4360890,"Jordan McCloud","QB","South Florida","American Athletic",209,0.186,0.143,0.419
+"538",113,2015,552880,"Nick Mullens","QB","Southern Mississippi","Conference USA",562,0.419,0.431,0.137
+"539",236,2016,552880,"Nick Mullens","QB","Southern Mississippi","Conference USA",432,0.401,0.396,0.457
+"540",310,2017,4050370,"Keon Howard","QB","Southern Mississippi","Conference USA",220,0.245,0.196,0.422
+"541",331,2017,4039275,"Kwadra Griggs","QB","Southern Mississippi","Conference USA",346,0.288,0.295,0.261
+"542",409,2018,4040407,"Jack Abraham","QB","Southern Mississippi","Conference USA",314,0.135,0.153,-0.059
+"543",632,2019,4040407,"Jack Abraham","QB","Southern Mississippi","Conference USA",482,0.378,0.371,0.424
+"544",123,2015,516357,"Kevin Hogan","QB","Stanford","Pac-12",386,0.481,0.481,0.483
+"545",140,2016,546469,"Ryan Burns","QB","Stanford","Pac-12",222,0.13,0.139,0.089
+"546",384,2017,4044431,"K.J. Costello","QB","Stanford","Pac-12",238,0.469,0.462,0.54
+"547",516,2018,4044431,"K.J. Costello","QB","Stanford","Pac-12",450,0.451,0.458,0.303
+"548",600,2019,4242546,"Davis Mills","QB","Stanford","Pac-12",271,0.312,0.318,0.228
+"549",729,2020,4242546,"Davis Mills","QB","Stanford","Pac-12",218,0.384,0.402,0.219
+"550",57,2015,3916447,"Eric Dungey","QB","Syracuse","ACC",263,0.25,0.265,0.213
+"551",193,2016,3916447,"Eric Dungey","QB","Syracuse","ACC",476,0.27,0.291,0.193
+"552",298,2017,3916447,"Eric Dungey","QB","Syracuse","ACC",523,0.206,0.135,0.454
+"553",484,2018,3916447,"Eric Dungey","QB","Syracuse","ACC",492,0.325,0.286,0.429
+"554",546,2019,4240391,"Tommy DeVito","QB","Syracuse","ACC",446,0.152,0.121,0.328
+"555",655,2020,4037121,"Rex Culpepper","QB","Syracuse","ACC",211,0.037,0.041,-0.018
+"556",120,2015,517127,"Trevone Boykin","QB","TCU","Big 12",515,0.459,0.49,0.344
+"557",203,2016,549865,"Kenny Hill","QB","TCU","Big 12",564,0.293,0.22,0.627
+"558",356,2017,549865,"Kenny Hill","QB","TCU","Big 12",497,0.348,0.365,0.262
+"559",554,2019,4427105,"Max Duggan","QB","TCU","Big 12",466,0.187,0.092,0.518
+"560",677,2020,4427105,"Max Duggan","QB","TCU","Big 12",351,0.214,0.149,0.396
+"561",40,2015,549759,"P.J. Walker","QB","Temple","American Athletic",512,0.21,0.244,-0.027
+"562",187,2016,549759,"P.J. Walker","QB","Temple","American Athletic",457,0.254,0.28,-0.023
+"563",292,2017,3914214,"Logan Marchi","QB","Temple","American Athletic",269,0.186,0.198,-0.012
+"564",372,2017,3138735,"Frank Nutile","QB","Temple","American Athletic",232,0.41,0.442,0.155
+"565",454,2018,4044122,"Anthony Russo","QB","Temple","American Athletic",386,0.264,0.263,0.27
+"566",550,2019,4044122,"Anthony Russo","QB","Temple","American Athletic",450,0.173,0.181,-0.01
+"567",82,2015,546540,"Joshua Dobbs","QB","Tennessee","SEC",487,0.307,0.241,0.501
+"568",223,2016,546540,"Joshua Dobbs","QB","Tennessee","SEC",495,0.351,0.279,0.569
+"569",465,2018,4035167,"Jarrett Guarantano","QB","Tennessee","SEC",285,0.291,0.314,-0.004
+"570",601,2019,4035167,"Jarrett Guarantano","QB","Tennessee","SEC",304,0.312,0.321,0.248
+"571",691,2020,4035167,"Jarrett Guarantano","QB","Tennessee","SEC",204,0.254,0.16,0.867
+"572",165,2016,4039034,"Shane Buechele","QB","Texas","Big 12",484,0.203,0.21,0.162
+"573",275,2017,4241820,"Sam Ehlinger","QB","Texas","Big 12",390,0.13,0.109,0.187
+"574",284,2017,4039034,"Shane Buechele","QB","Texas","Big 12",274,0.162,0.12,0.393
+"575",499,2018,4241820,"Sam Ehlinger","QB","Texas","Big 12",587,0.38,0.361,0.44
+"576",629,2019,4241820,"Sam Ehlinger","QB","Texas","Big 12",613,0.375,0.365,0.413
+"577",710,2020,4241820,"Sam Ehlinger","QB","Texas","Big 12",434,0.324,0.321,0.335
+"578",68,2015,559681,"Kyle Allen","QB","Texas A&M","SEC",345,0.274,0.274,0.275
+"579",196,2016,534449,"Trevor Knight","QB","Texas A&M","SEC",451,0.279,0.192,0.639
+"580",279,2017,4240904,"Kellen Mond","QB","Texas A&M","SEC",314,0.143,0.104,0.281
+"581",375,2017,4035225,"Nick Starkel","QB","Texas A&M","SEC",217,0.421,0.431,-0.115
+"582",469,2018,4240904,"Kellen Mond","QB","Texas A&M","SEC",555,0.295,0.266,0.407
+"583",591,2019,4240904,"Kellen Mond","QB","Texas A&M","SEC",537,0.292,0.241,0.534
+"584",717,2020,4240904,"Kellen Mond","QB","Texas A&M","SEC",392,0.355,0.384,0.217
+"585",26,2015,548240,"Tyler Jones","QB","Texas State","Sun Belt",469,0.161,0.13,0.256
+"586",132,2016,548240,"Tyler Jones","QB","Texas State","Sun Belt",454,0.05,0.051,0.046
+"587",268,2017,546603,"Damian Williams","QB","Texas State","Sun Belt",384,0.11,0.114,0.095
+"588",399,2018,4362667,"Tyler Vitt","QB","Texas State","Sun Belt",274,0.088,0.074,0.135
+"589",533,2019,4027860,"Gresch Jensen","QB","Texas State","Sun Belt",202,0.085,0.054,0.964
+"590",540,2019,4362667,"Tyler Vitt","QB","Texas State","Sun Belt",287,0.125,0.106,0.238
+"591",661,2020,4371730,"Brady McBride","QB","Texas State","Sun Belt",342,0.124,0.151,-0.046
+"592",95,2015,3139477,"Patrick Mahomes","QB","Texas Tech","Big 12",700,0.361,0.314,0.621
+"593",243,2016,3139477,"Patrick Mahomes","QB","Texas Tech","Big 12",718,0.423,0.423,0.422
+"594",339,2017,545364,"Nic Shimonek","QB","Texas Tech","Big 12",549,0.306,0.313,0.193
+"595",470,2018,4043136,"Jett Duffey","QB","Texas Tech","Big 12",230,0.298,0.269,0.374
+"596",501,2018,4362159,"Alan Bowman","QB","Texas Tech","Big 12",353,0.381,0.407,-0.036
+"597",563,2019,4043136,"Jett Duffey","QB","Texas Tech","Big 12",437,0.228,0.238,0.158
+"598",678,2020,4259219,"Henry Colombi","QB","Texas Tech","Big 12",214,0.214,0.164,0.457
+"599",680,2020,4362159,"Alan Bowman","QB","Texas Tech","Big 12",237,0.216,0.228,-0.062
+"600",99,2015,515906,"Phillip Ely","QB","Toledo","Mid-American",391,0.37,0.392,-0.032
+"601",252,2016,545910,"Logan Woodside","QB","Toledo","Mid-American",418,0.532,0.585,-0.417
+"602",377,2017,545910,"Logan Woodside","QB","Toledo","Mid-American",458,0.43,0.436,0.325
+"603",421,2018,4039495,"Eli Peters","QB","Toledo","Mid-American",286,0.184,0.18,0.262
+"604",84,2015,546145,"Brandon Silvers","QB","Troy","Sun Belt",369,0.314,0.338,0.038
+"605",163,2016,546145,"Brandon Silvers","QB","Troy","Sun Belt",416,0.202,0.189,0.343
+"606",328,2017,546145,"Brandon Silvers","QB","Troy","Sun Belt",453,0.278,0.267,0.421
+"607",427,2018,4039901,"Sawyer Smith","QB","Troy","Sun Belt",299,0.194,0.216,0.105
+"608",596,2019,4039910,"Kaleb Barker","QB","Troy","Sun Belt",542,0.309,0.322,0.197
+"609",692,2020,4362723,"Gunnar Watson","QB","Troy","Sun Belt",330,0.264,0.281,0
+"610",19,2015,545757,"Tanner Lee","QB","Tulane","American Athletic",298,0.11,0.127,-0.861
+"611",128,2016,3126243,"Glen Cuiellette","QB","Tulane","American Athletic",353,-0.117,-0.101,-0.155
+"612",350,2017,3916103,"Jonathan Banks","QB","Tulane","American Athletic",358,0.328,0.302,0.375
+"613",418,2018,3916103,"Jonathan Banks","QB","Tulane","American Athletic",216,0.171,0.137,0.268
+"614",602,2019,3843247,"Justin McMillan","QB","Tulane","American Athletic",480,0.313,0.226,0.524
+"615",681,2020,4685039,"Michael Pratt","QB","Tulane","American Athletic",369,0.217,0.158,0.421
+"616",93,2015,532273,"Dane Evans","QB","Tulsa","American Athletic",577,0.351,0.361,0.255
+"617",228,2016,532273,"Dane Evans","QB","Tulsa","American Athletic",473,0.363,0.341,0.757
+"618",325,2017,3917007,"Chad President","QB","Tulsa","American Athletic",223,0.269,0.066,0.823
+"619",413,2018,4244601,"Seth Boomer","QB","Tulsa","American Athletic",252,0.155,0.14,0.251
+"620",562,2019,4035409,"Zach Smith","QB","Tulsa","American Athletic",500,0.226,0.247,-0.033
+"621",672,2020,4035409,"Zach Smith","QB","Tulsa","American Athletic",296,0.174,0.193,-0.118
+"622",312,2017,545682,"A.J. Erdely","QB","UAB","Conference USA",455,0.246,0.182,0.479
+"623",442,2018,545682,"A.J. Erdely","QB","UAB","Conference USA",280,0.226,0.243,0.172
+"624",509,2018,4239793,"Tyler Johnston III","QB","UAB","Conference USA",230,0.421,0.521,0.247
+"625",571,2019,4239793,"Tyler Johnston III","QB","UAB","Conference USA",324,0.253,0.296,0.094
+"626",14,2015,551184,"Justin Holman","QB","UCF","American Athletic",295,0.08,0.024,0.437
+"627",137,2016,4042113,"McKenzie Milton","QB","UCF","American Athletic",384,0.106,0.064,0.292
+"628",388,2017,4042113,"McKenzie Milton","QB","UCF","American Athletic",494,0.578,0.569,0.614
+"629",520,2018,4042113,"McKenzie Milton","QB","UCF","American Athletic",366,0.509,0.535,0.405
+"630",636,2019,4427238,"Dillon Gabriel","QB","UCF","American Athletic",466,0.394,0.391,0.424
+"631",731,2020,4427238,"Dillon Gabriel","QB","UCF","American Athletic",469,0.453,0.461,0.383
+"632",87,2015,3886377,"Josh Rosen","QB","UCLA","Pac-12",520,0.328,0.327,0.348
+"633",159,2016,531259,"Mike Fafaul","QB","UCLA","Pac-12",280,0.187,0.184,0.234
+"634",230,2016,3886377,"Josh Rosen","QB","UCLA","Pac-12",250,0.365,0.367,0.314
+"635",340,2017,3886377,"Josh Rosen","QB","UCLA","Pac-12",497,0.307,0.308,0.302
+"636",439,2018,4367178,"Dorian Thompson-Robinson","QB","UCLA","Pac-12",200,0.221,0.201,0.341
+"637",457,2018,3115966,"Wilton Speight","QB","UCLA","Pac-12",245,0.27,0.256,0.39
+"638",570,2019,4367178,"Dorian Thompson-Robinson","QB","UCLA","Pac-12",475,0.251,0.221,0.388
+"639",17,2015,518271,"Blake Frohnapfel","QB","UMass","FBS Independents",530,0.099,0.081,0.327
+"640",180,2016,3116772,"Andrew Ford","QB","UMass","FBS Independents",406,0.241,0.22,0.75
+"641",360,2017,3116772,"Andrew Ford","QB","UMass","FBS Independents",408,0.363,0.364,0.343
+"642",491,2018,3125927,"Ross Comis","QB","UMass","FBS Independents",277,0.354,0.333,0.431
+"643",525,2019,4572366,"Andrew Brito","QB","UMass","FBS Independents",203,-0.11,-0.087,-0.374
+"644",15,2015,551230,"Kurt Palandech","QB","UNLV","Mountain West",234,0.089,-0.032,0.43
+"645",72,2015,3125318,"Blake Decker","QB","UNLV","Mountain West",254,0.279,0.325,0.029
+"646",311,2017,4056052,"Armani Rogers","QB","UNLV","Mountain West",333,0.245,0.143,0.416
+"647",412,2018,4035856,"Max Gilliam","QB","UNLV","Mountain West",276,0.152,0.171,0.014
+"648",471,2018,4056052,"Armani Rogers","QB","UNLV","Mountain West",210,0.3,0.043,0.719
+"649",545,2019,4361566,"Kenyon Oblad","QB","UNLV","Mountain West",351,0.15,0.154,0.11
+"650",675,2020,4035856,"Max Gilliam","QB","UNLV","Mountain West",212,0.202,0.078,0.737
+"651",98,2015,513329,"Cody Kessler","QB","USC","Pac-12",504,0.369,0.334,1.158
+"652",250,2016,3912547,"Sam Darnold","QB","USC","Pac-12",426,0.509,0.549,0.238
+"653",366,2017,3912547,"Sam Darnold","QB","USC","Pac-12",552,0.378,0.381,0.35
+"654",434,2018,4374303,"JT Daniels","QB","USC","Pac-12",403,0.205,0.23,-0.18
+"655",640,2019,4428512,"Kedon Slovis","QB","USC","Pac-12",434,0.427,0.458,-0.081
+"656",716,2020,4428512,"Kedon Slovis","QB","USC","Pac-12",284,0.351,0.37,-0.115
+"657",11,2015,3124037,"Dalton Sturm","QB","UT San Antonio","Conference USA",338,0.049,0.062,0.014
+"658",202,2016,3124037,"Dalton Sturm","QB","UT San Antonio","Conference USA",360,0.291,0.247,0.493
+"659",347,2017,3124037,"Dalton Sturm","QB","UT San Antonio","Conference USA",415,0.32,0.279,0.456
+"660",392,2018,4362984,"Cordale Grundy","QB","UT San Antonio","Conference USA",282,0.041,-0.032,0.416
+"661",553,2019,4242203,"Lowell Narcisse","QB","UT San Antonio","Conference USA",316,0.184,0.065,0.454
+"662",699,2020,4245186,"Frank Harris","QB","UT San Antonio","Conference USA",301,0.29,0.187,0.629
+"663",38,2015,531051,"Travis Wilson","QB","Utah","Pac-12",450,0.206,0.191,0.248
+"664",157,2016,546876,"Troy Williams","QB","Utah","Pac-12",493,0.184,0.195,0.13
+"665",314,2017,4035671,"Tyler Huntley","QB","Utah","Pac-12",473,0.25,0.265,0.215
+"666",416,2018,4243258,"Jason Shelley","QB","Utah","Pac-12",228,0.164,0.167,0.154
+"667",441,2018,4035671,"Tyler Huntley","QB","Utah","Pac-12",338,0.224,0.251,0.15
+"668",641,2019,4035671,"Tyler Huntley","QB","Utah","Pac-12",399,0.448,0.524,0.141
+"669",6,2015,512806,"Chuckie Keeton","QB","Utah State","Mountain West",246,0.033,-0.003,0.197
+"670",64,2015,3125353,"Kent Myers","QB","Utah State","Mountain West",281,0.266,0.295,0.18
+"671",167,2016,3125353,"Kent Myers","QB","Utah State","Mountain West",476,0.205,0.155,0.412
+"672",274,2017,3125353,"Kent Myers","QB","Utah State","Mountain West",277,0.13,0.036,0.471
+"673",293,2017,4036378,"Jordan Love","QB","Utah State","Mountain West",273,0.192,0.162,0.382
+"674",518,2018,4036378,"Jordan Love","QB","Utah State","Mountain West",458,0.467,0.487,0.244
+"675",557,2019,4036378,"Jordan Love","QB","Utah State","Mountain West",552,0.206,0.201,0.246
+"676",149,2016,3124698,"Ryan Metz","QB","UTEP","Conference USA",206,0.173,0.127,0.621
+"677",391,2018,4362029,"Kai Locksley","QB","UTEP","Conference USA",274,0.032,-0.071,0.231
+"678",586,2019,4362029,"Kai Locksley","QB","UTEP","Conference USA",305,0.288,0.242,0.378
+"679",693,2020,4575668,"Gavin Hardison","QB","UTEP","Conference USA",223,0.264,0.332,-0.422
+"680",7,2015,546184,"Johnny McCrary","QB","Vanderbilt","SEC",336,0.036,-0.012,0.296
+"681",142,2016,3915776,"Kyle Shurmur","QB","Vanderbilt","SEC",423,0.15,0.161,-0.057
+"682",349,2017,3915776,"Kyle Shurmur","QB","Vanderbilt","SEC",412,0.328,0.342,0.005
+"683",475,2018,3915776,"Kyle Shurmur","QB","Vanderbilt","SEC",439,0.308,0.312,0.22
+"684",537,2019,3915468,"Riley Neal","QB","Vanderbilt","SEC",310,0.11,0.078,0.377
+"685",657,2020,4431375,"Ken Seals","QB","Vanderbilt","SEC",285,0.092,0.096,0.046
+"686",63,2015,535548,"Matt Johns","QB","Virginia","ACC",460,0.264,0.27,0.206
+"687",136,2016,545645,"Kurt Benkert","QB","Virginia","ACC",463,0.099,0.089,0.247
+"688",267,2017,545645,"Kurt Benkert","QB","Virginia","ACC",571,0.109,0.104,0.166
+"689",459,2018,3675812,"Bryce Perkins","QB","Virginia","ACC",557,0.274,0.266,0.291
+"690",558,2019,3675812,"Bryce Perkins","QB","Virginia","ACC",723,0.209,0.201,0.232
+"691",694,2020,4370775,"Brennan Armstrong","QB","Virginia","ACC",393,0.274,0.227,0.398
+"692",39,2015,530541,"Brenden Motley","QB","Virginia Tech","ACC",251,0.21,0.214,0.202
+"693",67,2015,514481,"Michael Brewer","QB","Virginia Tech","ACC",251,0.273,0.286,0.132
+"694",224,2016,556465,"Jerod Evans","QB","Virginia Tech","ACC",620,0.352,0.34,0.382
+"695",306,2017,4037603,"Josh Jackson","QB","Virginia Tech","ACC",514,0.235,0.238,0.226
+"696",477,2018,3917958,"Ryan Willis","QB","Virginia Tech","ACC",472,0.31,0.253,0.557
+"697",619,2019,4240858,"Hendon Hooker","QB","Virginia Tech","ACC",279,0.351,0.397,0.272
+"698",708,2020,4240858,"Hendon Hooker","QB","Virginia Tech","ACC",269,0.316,0.336,0.285
+"699",23,2015,3124092,"John Wolford","QB","Wake Forest","ACC",306,0.143,0.114,0.291
+"700",145,2016,3124092,"John Wolford","QB","Wake Forest","ACC",428,0.155,0.077,0.413
+"701",374,2017,3124092,"John Wolford","QB","Wake Forest","ACC",512,0.42,0.442,0.354
+"702",444,2018,4361994,"Sam Hartman","QB","Wake Forest","ACC",394,0.23,0.224,0.256
+"703",467,2018,4037213,"Jamie Newman","QB","Wake Forest","ACC",205,0.291,0.292,0.287
+"704",582,2019,4037213,"Jamie Newman","QB","Wake Forest","ACC",539,0.273,0.332,0.132
+"705",712,2020,4361994,"Sam Hartman","QB","Wake Forest","ACC",335,0.337,0.39,-0.04
+"706",80,2015,3886812,"Jake Browning","QB","Washington","Pac-12",428,0.306,0.287,0.516
+"707",247,2016,3886812,"Jake Browning","QB","Washington","Pac-12",452,0.477,0.457,0.696
+"708",363,2017,3886812,"Jake Browning","QB","Washington","Pac-12",389,0.369,0.373,0.336
+"709",497,2018,3886812,"Jake Browning","QB","Washington","Pac-12",467,0.365,0.339,0.534
+"710",595,2019,4035003,"Jacob Eason","QB","Washington","Pac-12",449,0.305,0.293,0.506
+"711",66,2015,550629,"Luke Falk","QB","Washington State","Pac-12",720,0.271,0.29,0
+"712",201,2016,550629,"Luke Falk","QB","Washington State","Pac-12",696,0.289,0.304,0.017
+"713",295,2017,550629,"Luke Falk","QB","Washington State","Pac-12",592,0.196,0.196,0.202
+"714",479,2018,4038524,"Gardner Minshew","QB","Washington State","Pac-12",713,0.319,0.309,0.462
+"715",592,2019,4055171,"Anthony Gordon","QB","Washington State","Pac-12",724,0.292,0.31,-0.086
+"716",41,2015,3116460,"Skyler Howard","QB","West Virginia","Big 12",560,0.217,0.209,0.245
+"717",211,2016,3116460,"Skyler Howard","QB","West Virginia","Big 12",542,0.311,0.296,0.363
+"718",313,2017,559556,"Will Grier","QB","West Virginia","Big 12",390,0.246,0.267,0.095
+"719",496,2018,559556,"Will Grier","QB","West Virginia","Big 12",388,0.365,0.381,0.118
+"720",552,2019,4037642,"Austin Kendall","QB","West Virginia","Big 12",348,0.183,0.186,0.158
+"721",687,2020,4244029,"Jarret Doege","QB","West Virginia","Big 12",408,0.239,0.221,0.578
+"722",125,2015,504866,"Brandon Doughty","QB","Western Kentucky","Conference USA",541,0.499,0.524,-0.392
+"723",251,2016,549804,"Mike White","QB","Western Kentucky","Conference USA",399,0.511,0.52,0.21
+"724",333,2017,549804,"Mike White","QB","Western Kentucky","Conference USA",617,0.291,0.288,0.372
+"725",395,2018,4037556,"Steven Duncan","QB","Western Kentucky","Conference USA",256,0.069,0.062,0.094
+"726",599,2019,3886621,"Ty Storey","QB","Western Kentucky","Conference USA",465,0.311,0.306,0.328
+"727",659,2020,4036210,"Tyrrell Pigrome","QB","Western Kentucky","Conference USA",399,0.115,0.059,0.32
+"728",112,2015,532645,"Zach Terrell","QB","Western Michigan","Mid-American",435,0.412,0.4,0.512
+"729",253,2016,532645,"Zach Terrell","QB","Western Michigan","Mid-American",435,0.587,0.593,0.557
+"730",344,2017,3916726,"Jon Wassink","QB","Western Michigan","Mid-American",231,0.316,0.302,0.413
+"731",490,2018,3916726,"Jon Wassink","QB","Western Michigan","Mid-American",289,0.349,0.324,0.489
+"732",608,2019,3916726,"Jon Wassink","QB","Western Michigan","Mid-American",475,0.323,0.298,0.523
+"733",61,2015,514230,"Joel Stave","QB","Wisconsin","Big Ten",397,0.258,0.26,0.201
+"734",184,2016,3886609,"Alex Hornibrook","QB","Wisconsin","Big Ten",204,0.249,0.291,-0.561
+"735",373,2017,3886609,"Alex Hornibrook","QB","Wisconsin","Big Ten",347,0.418,0.441,-0.55
+"736",443,2018,3886609,"Alex Hornibrook","QB","Wisconsin","Big Ten",225,0.229,0.259,-0.575
+"737",637,2019,4242331,"Jack Coan","QB","Wisconsin","Big Ten",390,0.401,0.429,0.155
+"738",671,2020,4426335,"Graham Mertz","QB","Wisconsin","Big Ten",228,0.169,0.133,0.478
+"739",54,2015,530691,"Cameron Coffman","QB","Wyoming","Mountain West",280,0.244,0.246,0.214
+"740",239,2016,3918298,"Josh Allen","QB","Wyoming","Mountain West",481,0.411,0.34,0.683
+"741",323,2017,3918298,"Josh Allen","QB","Wyoming","Mountain West",360,0.264,0.22,0.455
+"742",393,2018,4240351,"Tyler Vander Waal","QB","Wyoming","Mountain West",304,0.054,0.033,0.198
+"743",642,2019,4361690,"Sean Chambers","QB","Wyoming","Mountain West",210,0.454,0.242,0.785
